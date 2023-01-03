@@ -1,6 +1,6 @@
 <footer class="c-footer-new">
   <footer data-w-id="1a3f9d75-fade-0261-77cf-dbcd634834cf" class="c-footer wf-section">
-    <div class="w-layout-grid c-footer__grid2">
+    <div class="w-layout-grid c-footer__grid2 c-footer__grid">
       <div id="w-node-_1a3f9d75-fade-0261-77cf-dbcd634834f4-634834ce" class="c-grid-block__p4">        
           <h2 class="heading-4">Let's</h2>
           <div class="div-block-36" style="display: flex;">
@@ -27,7 +27,7 @@
         </div> -->
       </div>
       <div id="w-node-_1a3f9d75-fade-0261-77cf-dbcd634834d1-634834ce" class="w-layout-grid c-hero__grid cc--footer">
-        <a href="#" class="c-footer__grid-item upper open-intercom w-inline-block">
+        <a href="mailto:<?php echo get_theme_mod('mail_us'); ?>" class="c-footer__grid-item upper open-intercom w-inline-block">
           <div class="c-footer__service-link">
             <div class="c-footer__icon w-embed">
               <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,41 +54,15 @@
               the phone</h4>
           </div><img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-enclosed-arrow.svg" loading="lazy"
             alt="right arrow inside circle" class="c-button--arrow btm black">
-        </a><a href="tel:<?php echo get_theme_mod('call_us'); ?>" class="c-footer__grid-item w-inline-block">
-          <div class="c-footer__service-link">
-            <div class="c-footer__icon w-embed">
-              <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M16 2V6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                </path>
-                <path d="M8 2V6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                </path>
-                <path d="M3 10H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round"></path>
-              </svg>
-            </div>
-            <h4 data-split-type="lines" data-split="200" class="c-footer__grid-title">Book a<br>
-              consultation</h4>
-          </div><img src="<?php bloginfo('template_directory'); ?>/assets/images/icon-enclosed-arrow.svg" loading="lazy"
-            alt="right arrow inside circle" class="c-button--arrow btm black">
-        </a><a href="mailto:<?php echo get_theme_mod('mail_us'); ?>" class="c-footer__grid-item w-inline-block">
-          <div class="c-footer__service-link">
-            <div class="c-footer__icon w-embed">
-              <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round"></path>
-                <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round"></path>
-              </svg>
-            </div>
-            <h4 data-split="200" data-split-type="lines" class="c-footer__grid-title">Send us<br>
-              an email</h4>
-          </div><img
-            src="https://assets-global.website-files.com/5c51b8093dcfd38165099093/5f959b1cd3283e540294ea95_icon-enclosed-arrow.svg"
-            loading="lazy" alt="right arrow inside circle" class="c-button--arrow btm black">
         </a>
+        <div class="c-footer__grid-item w-inline-block p-20-0">
+          <h3 class="c-footer__grid-title pb-1">Explore</h3>
+          <?php wp_nav_menu( array( 'theme_location' => 'footer-menu-1' ) ); ?>
+        </div>
+        <div class="c-footer__grid-item w-inline-block p-20-0">
+          <h3 class="c-footer__grid-title pb-1">Our Services</h3>
+          <?php wp_nav_menu( array( 'theme_location' => 'footer-menu-2' ) ); ?>        
+        </div>
       </div>
       <div id="w-node-_1a3f9d75-fade-0261-77cf-dbcd634834f2-634834ce" class="c-grid-block__p4">
         <div class="c-footer__socials">
@@ -136,17 +110,6 @@
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/main.js" type="text/javascript"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/custom.js" type="text/javascript"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/flynaut.js" type="text/javascript"></script>
-<script>
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 300) {
-    alert($(window).scrollTop());
-  }}
-</script>
-<?php 
-if(preg_match('/(career)/i',$_SERVER['REQUEST_URI'])){ ?>
-  <!-- GSAP-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
-<?php } ?>
 <!-- swiper JS -->
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/swiper-bundle.min.js"></script>
 

@@ -10,7 +10,6 @@
     <?php bloginfo('description'); ?>
   </title>
   <link href="<?php bloginfo('template_directory'); ?>/assets/css/main.min.css" rel="stylesheet" type="text/css">
-
   <style>
     body {
       -webkit-font-smoothing: antialiased;

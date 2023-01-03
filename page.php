@@ -45,10 +45,10 @@ the_post();
                 <div data-w-id="2471157c-ace6-4b6a-b0ea-3212755ec3cb"
                     style="-webkit-transform:translate3d(0, 3em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 4deg);-moz-transform:translate3d(0, 3em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 4deg);-ms-transform:translate3d(0, 3em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 4deg);transform:translate3d(0, 3em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 4deg);opacity:0"
                     class="c-hero--statement">
-                    <h1 class="c-hero--txt">We help brands</h1>
-                    <h1 class="c-hero--txt is--large long-gradient">that do
-                        good<br>
-                        look good.</h1>
+                    <h6 class="font_caps" data-splitting>/ Digital Agency</h6>
+                    <h1 class="c-hero--txt">We help businesses </h1> 
+                    <h1 class="c-hero--txt is--large long-gradient">launch and grow<br>
+                        through digital innovation.</h1>
                 </div><a id="open-modal-2" data-w-id="f4d63999-cb65-7d75-e5f3-75b2b06cc970"
                     style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);opacity:0"
                     href="#" class="c-button no-outlined white-border mrg-tp hero w-inline-block">
@@ -164,9 +164,8 @@ the_post();
                     <div data-w-id="df54cb2b-4933-3198-c816-2b5015bdf98e" class="c-content-blk cc--short">
                         <div style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
                             class="c-txt-wrapper">
-                            <h2 class="c-colour-wave">We drive growth for your
-                                business by making your brand more compelling
-                                online.</h2>
+                            <h6 class="font_caps" data-splitting>/ Introduction</h6>
+                            <h2 class="c-colour-wave">We are a team of passionate,  young and industry leading designers, developers, and strategists, world-class digital experiences at the heart of Silicon Valley.</h2>
                         </div><a data-w-id="1cb59165-78d2-c82e-0352-b9998f1c49cb"
                             style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
                             href="/our-services" class="c-button outlined white mrg-tp w-inline-block">
@@ -186,18 +185,13 @@ the_post();
                     <div data-w-id="3565254a-d1cd-7f02-8c19-6f58806a756c" class="c-sticky__blk">
                         <div style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
                             class="c-ttl-blk">
-                            <h2 class="c-headline cc-home">What is a
-                                company</h2>
-                            <h2 class="c-headline gradient-pink cc-home">that
-                                does good?</h2>
+                            <h6 class="font_caps" data-splitting>/ Our Approach</h6>                            
+                            <h2 class="c-headline cc-home">We create a hand-crafted digital </h2>
+                            <h2 class="c-headline gradient-pink cc-home">experience unique to each project.</h2>
                         </div>
                         <div style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
                             class="c-txt-blk--flex">
-                            <p class="c-txt-blk__txt is--copy">The idea of
-                                making a positive impact with every project is what
-                                drives us. That's why we specialise in working with
-                                brands promoting environmental and socially
-                                responsible products, practices, and values.</p>
+                            <p class="c-txt-blk__txt is--copy">We stimulate growth for your business by making your brand more compelling online. By combining insight, creativity and technology we transform your digital customer experiences or stimulate new growth with new initiatives. We are always here to deliver the results you need.</p>
                         </div>
                     </div>
                 </div>

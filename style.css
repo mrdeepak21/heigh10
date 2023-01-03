@@ -17,205 +17,374 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 */
 
 /* VARIABLES */
-    :root{
-        --ease1:cubic-bezier(.246,.75,.187,1); /* GSAP power 3 */
-        --ease2:cubic-bezier(.19,1,.22,1); /* out-expo */
-        --ease3:cubic-bezier(1,0,0,1); /* in-out-expo */
-        }
+:root {
+    --ease1: cubic-bezier(.246, .75, .187, 1);
+    /* GSAP power 3 */
+    --ease2: cubic-bezier(.19, 1, .22, 1);
+    /* out-expo */
+    --ease3: cubic-bezier(1, 0, 0, 1);
+    /* in-out-expo */
+    --creame: #e0ccbb;
+    --light-blue:#66a0ec;
+    --purple: #7857ea;
+    --pink:#dd4691;
+    --orange:#ff9959;
+    --blue: #3a84ff;
+}
 
-        .c-brand {
-            mix-blend-mode: difference;
-            }
- .nav-button {
-                mix-blend-mode: difference;
-                }
-                .underline-animation .is--large ::after {
-                    content: '';
-                    position: absolute;
-                    width: 100%;
-                    transform: scaleX(0);
-                    height: 2px;
-                    bottom: 0;
-                    left: 0;
-                    background-color: #ffffff;
-                    transform-origin: bottom right;
-                    transition: transform 0.25s ease-out;
-                    }
-                    .underline-animation:hover::after {
-                    transform: scaleX(1);
-                    transform-origin: bottom left;
-                    }
-                    .c-reel video {
-                        width: 100%;
-                        height: 100%;
-                        position: absolute;
-                        top: 0;
-                        bottom: 0;
-                        right: 0;
-                        left: 0;
-                    }
-                    .c-your-brand__gradient-overlay {
+.c-brand {
+    mix-blend-mode: difference;
+    position: absolute !important;
+    top: 3em;
+    right: 7em!important;
+    left: auto;
+    width: 242px;
+    height: 51px;
+}
 
-                        mix-blend-mode: darken;
+.nav-button {
+    mix-blend-mode: difference;
+}
 
-                    }
-                     /* text split animation added class on scroll */
-    .animate-text {
-        opacity: 1;
-        transform:translate3d(0%,0%,0) scale3d(1,1,1);
-    }
+.underline-animation .is--large ::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--creame);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.c-reel video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.c-your-brand__gradient-overlay {
+
+    mix-blend-mode: darken;
+
+}
+
+/* text split animation added class on scroll */
+.animate-text {
+    opacity: 1;
+    transform: translate3d(0%, 0%, 0) scale3d(1, 1, 1);
+}
 
 
-    /* lower this elements font-size for small desktop views */
-    @media only screen and (max-width: 1180px) and (min-width: 992px) {
+/* lower this elements font-size for small desktop views */
+@media only screen and (max-width: 1180px) and (min-width: 992px) {
     .button_h3.is-mobile_h4 {
-         font-size: 1.45em;
+        font-size: 1.45em;
     }
-    }
+}
 
-    /* Backtotop */
+/* Backtotop */
 
-    .progress-wrap {
-        position: fixed;
-        right: 50px;
-        bottom: 50px;
-        height: 60px;
-        width: 60px;
-        cursor: pointer;
-        display: block;
-        border-radius: 50px;
-        box-shadow: inset 0 0 0 4px rgba(255, 255, 255, 0.2);
-        z-index: 10000;
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(15px);
-        -webkit-transition: all 200ms linear;
-        transition: all 200ms linear;
-    }
-    
-    .progress-wrap.active-progress {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-    }
-    
-    .progress-wrap::after {
-        position: absolute;
-        
-        text-align: center;
-        line-height: 60px;
-        font-size: 40px;
-        color: #ff9959;
-        left: 0;
-        top: 0;
-        height: 60px;
-        width: 60px;
-        cursor: pointer;
-        display: block;
-        z-index: 1;
-        -webkit-transition: all 200ms linear;
-        transition: all 200ms linear;
-    }
-    
-    .progress-wrap:hover::after {
-        opacity: 0;
-    }
-    
-    .progress-wrap::before {
-        position: absolute;
-        text-align: center;
-        line-height: 60px;
-        font-size: 40px;
-        opacity: 0;
-        background-image: linear-gradient(298deg, #dd4691, #3a84ff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        left: 0;
-        top: 0;
-        height: 60px;
-        width: 60px;
-        cursor: pointer;
-        display: block;
-        z-index: 2;
-        -webkit-transition: all 200ms linear;
-        transition: all 200ms linear;
-    }
+.progress-wrap {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 4px rgba(255, 255, 255, 0.2);
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
 
-    .btt-down::after,.btt-down::before{
-        content: '\2193';
-    }
-    .btt-up::after,.btt-up::before{
-        content: '\2191';
-    }
-    
-    .progress-wrap:hover::before {
-        opacity: 1;
-    }
-    
-    .progress-wrap svg path {
-        fill: none;
-    }
-    
-    .progress-wrap svg.progress-circle path {
-        stroke: #ff9959;
-        stroke-width: 4;
-        box-sizing: border-box;
-        -webkit-transition: all 200ms linear;
-        transition: all 200ms linear;
-    }
-    
-    .c-footer__grid2{
-        grid-template-rows: 1.5fr 1.5fr;
-    }
+.progress-wrap.active-progress {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
 
-    footer .menu{
-        list-style: none;  
-        padding: 0;      
-    }
+.progress-wrap::after {
+    position: absolute;
 
-    footer .menu li{
-        line-height: 2;
-    }
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    color: #ff9959;
+    left: 0;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
 
-    footer .menu li a{
-    color: #000;
+.progress-wrap:hover::after {
+    opacity: 0;
+}
+
+.progress-wrap::before {
+    position: absolute;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    opacity: 0;
+    background-image: linear-gradient(298deg, #dd4691, #3a84ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 0;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    display: block;
+    z-index: 2;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.btt-down::after,
+.btt-down::before {
+    content: '\2193';
+}
+
+.btt-up::after,
+.btt-up::before {
+    content: '\2191';
+}
+
+.progress-wrap:hover::before {
+    opacity: 1;
+}
+
+.progress-wrap svg path {
+    fill: none;
+}
+
+.progress-wrap svg.progress-circle path {
+    stroke: #ff9959;
+    stroke-width: 4;
+    box-sizing: border-box;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.c-footer__grid2 {
+    grid-template-rows: 1.5fr 1.5fr;
+}
+
+footer .menu {
+    list-style: none;
+    padding: 0;
+}
+
+footer .menu li {
+    line-height: 2;
+}
+
+footer .menu a {
+    color: var(--creame);
     font-family: inherit;
     position: relative;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer .menu a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--creame);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+footer .menu a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.div-block-36 {
+    position: relative;
+    width: fit-content;
+}
+
+.div-block-36::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--creame);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.div-block-36:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.pb-1 {
+    padding-bottom: 0.5em;
+}
+
+footer footer {
+    height: 100vh;
+}
+
+footer h2 {
+    font-size: 7.5em;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer h5,
+footer p,
+footer .h5,
+#wcb.carbonbadge {
+    font-size: 14px !important;
+    font-weight: 100;
+    color: inherit;
+}
+
+footer .c-hero--txt.is--large.long-gradient {
+    padding-bottom: 0;
+}
+
+footer .row {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 50px 15vw;
+}
+
+footer .col {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.c-footer-new,
+.c-footer {
+    background-color: #000 !important;
+    color: var(--creame);
+}
+
+.html-embed-4 {
+    margin-left: 0;
+}
+
+#wcb.carbonbadge {
+    position: absolute;
+    z-index: 10;
+}
+
+.div-block-41 {
+    width: 200px;
+    display: inline-grid;
+}
+
+.cta1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.c-footer {
+    background-color: #202020;
+}
+
+.c-footer::before {
+    background: linear-gradient(180deg, #000 0%, #282828 100%);
+    position: absolute;
+    content: "";
+    left: 30%;
+    top: 20%;
+    width: 1220px;
+    height: 792px;
+    border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+    will-change: border-radius, transform, opacity;
+    animation: sliderShape 5s linear infinite;
+    display: inline-block;
+    z-index: -1;
+    -webkit-animation: sliderShape 5s linear infinite;
+}
+
+@keyframes sliderShape {
+
+    0%,
+    100% {
+        border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+        transform: translate3d(0, 0, 0) rotateZ(0.01deg);
     }
 
-    footer .menu li a::after {
-        content: '';
-        position: absolute;
-        width: 100%;
-        transform: scaleX(0);
-        height: 1px;
-        bottom: -5px;
-        left: 0;
-        background-color: #000;
-        transform-origin: bottom right;
-        transition: transform 0.25s ease-out;
+    34% {
+        border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+        transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
     }
 
-   footer .menu li a:hover::after {
-        transform: scaleX(1);
-        transform-origin: bottom left;
-      }
-      
+    50% {
+        transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
 
-    .p-20-0{
-        padding: 20px 40px;
+    67% {
+        border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+        transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+    }
+}
+
+.font_caps{
+    margin-bottom: 3vw;
+}
+
+.c-colour-wave{
+    background-image:linear-gradient(71deg,var(--creame),#fff 31%,var(--pink) 57%,var(--orange) 94%)}
+
+    .c-headline.gradient-pink{
+        background-image: linear-gradient(169deg,#8cd6fa,var(--light-blue) 21%,var(--pink) 59%);
+    }
+
+/**Media CSS*/
+
+@media (max-width:767px) {
+    .div-block-36 {
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-end;
-        text-align: left;
     }
 
-    .pb-1{
-        padding-bottom: 0.5em;
+    footer h2 {
+        font-size: 3em;
     }
 
-    .c-brand{
-        position: absolute !important;
-        width: 285px;
-        height: 62px;
+    .div-block-41 {
+        width: 90px;
     }
+}
