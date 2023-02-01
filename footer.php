@@ -2,7 +2,7 @@
   <footer data-w-id="1a3f9d75-fade-0261-77cf-dbcd634834cf" class="c-footer wf-section">
     <div id="w-node-_1a3f9d75-fade-0261-77cf-dbcd634834f4-634834ce" class="c-grid-block__p4 cta1">        
       <a href="mailto:<?php echo get_theme_mod('mail_us'); ?>" class="div-block-36 h5" style="display: flex;align-items: center;justify-content: center;">
-        <h2 class="c-hero--txt is--large long-gradient`">Let's &nbsp;</h2>
+        <h2 class="c-hero--txt is--large text-white">Let's &nbsp;</h2>
         <div style="display: flex;align-items: center;justify-content: center;">
           <div class="div-block-39">
               <h2 class="co c-hero--txt is--large long-gradient">Co</h2>
@@ -42,18 +42,23 @@
         <div class="footer">           
             <a href="<?php echo get_theme_mod('social_links'); ?>"
             target="_blank" class="h5"><b>ln</b></a><br>
-            <p>&copy; <?php echo date('Y');   ?> 
-              <?php bloginfo('name'); ?> 
-            </p>  <br>
-            <div class="menu"><a href="<?php echo get_privacy_policy_url(); ?>" target="_blank">Privacy Policy</a></div>            
+             <br>
+                        
         </div>
-        <div class="html-embed-4 w-embed w-script">
-          <div id="wcb" class="carbonbadge"></div>
-          <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
-        </div>
+        
     </div>
   </div>
   </footer>
+  <div class="f-bottom">
+<div class="col"><p>&copy; <?php echo date('Y');   ?> 
+  <?php bloginfo('name'); ?> 
+</p> </div>
+<div class="col"><div class="html-embed-4 w-embed w-script">
+  <div id="wcb" class="carbonbadge"></div>
+  <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+</div></div>
+<div class="col"><div class="menu"><a href="<?php echo get_privacy_policy_url(); ?>" target="_blank">Privacy Policy</a></div></div>
+  </div>
 </footer>
 </main>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.js" type="text/javascript"></script>

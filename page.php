@@ -57,73 +57,7 @@ the_post();
                         loading="lazy" alt="right arrow inside circle" class="c-button--arrow">
                 </a>
             </div>
-            <div class="w-dyn-list">
-                <div role="list" class="c-hero__grid cc--home w-dyn-items">
-                    <div role="listitem" class="c-hero__grid-collection-item w-dyn-item">
-                        <a id="item-1" data-image-id="1" data-slide="1" data-w-id="2471157c-ace6-4b6a-b0ea-3212755ec3d8"
-                            href="<?php echo site_url(); ?>/services/brands" class="c-hero__grid-item cc--home w-inline-block">
-                            <div class="c-hero__grid-overlay"></div><img alt="gradient background colors"
-                                loading="eager" width="719"
-                                src="https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/62d159f3d359cc73b16ea612_brand-gradient.webp"
-                                sizes="(max-width: 991px) 100vw, 1120px"
-                                srcset="https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/62d159f3d359cc73b16ea612_brand-gradient-p-500.webp 500w, https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/62d159f3d359cc73b16ea612_brand-gradient-p-800.webp 800w, https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/62d159f3d359cc73b16ea612_brand-gradient-p-1080.webp 1080w, https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/62d159f3d359cc73b16ea612_brand-gradient.webp 1600w"
-                                class="c-hero__grid-bg">
-                            <div data-w-id="2471157c-ace6-4b6a-b0ea-3212755ec3d9"
-                                style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                class="c-hero__service-link">
-                                <div class="c-hero__service-title">
-                                    <h3 class="headline-split">Brand</h3>
-                                    <h3 class="headline-split cc--absolute">View</h3>
-                                </div><img
-                                    src="<?php bloginfo('template_directory'); ?>/assets/images/icon-enclosed-arrow.svg"
-                                    loading="lazy" alt="right arrow inside circle" class="c-button--arrow btm">
-                            </div>
-                        </a>
-                    </div>
-                    <div role="listitem" class="c-hero__grid-collection-item w-dyn-item">
-                        <a id="item-1" data-image-id="1" data-slide="1" data-w-id="2471157c-ace6-4b6a-b0ea-3212755ec3d8"
-                            href="<?php echo site_url(); ?>/services/websites" class="c-hero__grid-item cc--home w-inline-block">
-                            <div class="c-hero__grid-overlay"></div><img alt="gradient background colors"
-                                loading="eager" width="719"
-                                src="https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/619b68f7fe06e28555d58883_web-gradient.jpg"
-                                sizes="(max-width: 991px) 100vw, 1120px"
-                                srcset="https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/619b68f7fe06e28555d58883_web-gradient-p-500.jpeg 500w, https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/619b68f7fe06e28555d58883_web-gradient-p-800.jpeg 800w, https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/619b68f7fe06e28555d58883_web-gradient-p-1080.jpeg 1080w, https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/619b68f7fe06e28555d58883_web-gradient.jpg 1600w"
-                                class="c-hero__grid-bg">
-                            <div data-w-id="2471157c-ace6-4b6a-b0ea-3212755ec3d9"
-                                style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                class="c-hero__service-link">
-                                <div class="c-hero__service-title">
-                                    <h3 class="headline-split">Website</h3>
-                                    <h3 class="headline-split cc--absolute">View</h3>
-                                </div><img
-                                    src="<?php bloginfo('template_directory'); ?>/assets/images/icon-enclosed-arrow.svg"
-                                    loading="lazy" alt="right arrow inside circle" class="c-button--arrow btm">
-                            </div>
-                        </a>
-                    </div>
-                    <div role="listitem" class="c-hero__grid-collection-item w-dyn-item">
-                        <a id="item-1" data-image-id="1" data-slide="1" data-w-id="2471157c-ace6-4b6a-b0ea-3212755ec3d8"
-                            href="<?php echo site_url(); ?>/services/content" class="c-hero__grid-item cc--home w-inline-block">
-                            <div class="c-hero__grid-overlay"></div><img alt="gradient background colors"
-                                loading="eager" width="719"
-                                src="https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/619b68effe06e2ae7ed58860_video-gradient.jpg"
-                                sizes="(max-width: 991px) 100vw, 1120px"
-                                srcset="https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/619b68effe06e2ae7ed58860_video-gradient-p-800.jpeg 800w, https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/619b68effe06e2ae7ed58860_video-gradient-p-1080.jpeg 1080w, https://assets-global.website-files.com/5c5315d7d8fe7d4b71a1e69b/619b68effe06e2ae7ed58860_video-gradient.jpg 1600w"
-                                class="c-hero__grid-bg">
-                            <div data-w-id="2471157c-ace6-4b6a-b0ea-3212755ec3d9"
-                                style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                class="c-hero__service-link">
-                                <div class="c-hero__service-title">
-                                    <h3 class="headline-split">Content</h3>
-                                    <h3 class="headline-split cc--absolute">View</h3>
-                                </div><img
-                                    src="<?php bloginfo('template_directory'); ?>/assets/images/icon-enclosed-arrow.svg"
-                                    loading="lazy" alt="right arrow inside circle" class="c-button--arrow btm">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            
         </div>
         <div class="d_fixed_position_wrapper new">
             <div id="video-modal-holder" class="vimeo-wrapper hidden">
@@ -165,7 +99,7 @@ the_post();
                         <div style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
                             class="c-txt-wrapper">
                             <h6 class="font_caps" data-splitting>/ Introduction</h6>
-                            <h2 class="c-colour-wave">We are a team of passionate,  young and industry leading designers, developers, and strategists, world-class digital experiences at the heart of Silicon Valley.</h2>
+                            <h2 class="long-gradient">We are a team of passionate,  young and industry leading designers, developers, and strategists, world-class digital experiences at the heart of Silicon Valley.</h2>
                         </div><a data-w-id="1cb59165-78d2-c82e-0352-b9998f1c49cb"
                             style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
                             href="/our-services" class="c-button outlined white mrg-tp w-inline-block">
@@ -202,70 +136,44 @@ the_post();
                         <div class="w-layout-grid c-stats__grid">
                             <div class="c-stats__card-item mg-top">
                                 <div class="c-stats__header">
-                                    <h2 class="heading-2 stats-numbers">4,000</h2>
-                                    <p class="faded-text">Children kept from
-                                        violence in the Brazilian favelas</p>
+                                    <h2 class="heading-2 stats-numbers">Sterling</h2>
+                                    <p class="faded-text">A one-stop shop for smart businesses</p>
                                 </div>
-                                <div class="c-stats__btm"><img
-                                        src="https://assets-global.website-files.com/5c51b8093dcfd38165099093/61852495cb8af839a0d5a096_ace-projects-logo-white.svg"
+                                <div class="c-stats__btm" style="min-height: auto;width: 80px;"><img
+                                        src="http://sterlingwordpressfmladev.s3.us-west-1.amazonaws.com/wp-content/uploads/2022/01/25000521/logo-s.png"
                                         loading="lazy" alt="The ACE Project charity logo in white"
-                                        class="c-stats__card-logo inverse"></div>
+                                        class="c-stats__card-logo"></div>
                             </div>
                             <div class="c-stats__card-item">
                                 <div class="c-stats__header">
                                     <h2 class="heading-2 stats-numbers">
-                                        2,142,572</h2>
-                                    <p class="faded-text">Kilograms of ocean-bound
-                                        plastic collected</p>
+                                    ACN</h2>
+                                    <p class="faded-text">Providing amazing support through all stages of life</p>
                                 </div>
                                 <div class="c-stats__btm"><img
-                                        src="https://assets-global.website-files.com/5c51b8093dcfd38165099093/614dcd579d0ea9166a9905aa_OCEAN_BOTTLE-01%20LOGO%202.svg"
+                                        src="https://acnwpproduction.s3-us-west-1.amazonaws.com/wp-content/uploads/2020/01/amazingcare.png"
                                         loading="lazy" alt="" class="c-stats__card-logo"></div>
                             </div>
                             <div class="c-stats__card-item mg-top">
                                 <div class="c-stats__header">
                                     <h2 class="heading-2 stats-numbers">
-                                        230,000</h2>
-                                    <p class="faded-text">Meals served to NHS
-                                        workers during lockdown 1</p>
+                                    FMLA</h2>
+                                    <p class="faded-text">A new name for managing the complexities of leave administration</p>
                                 </div>
                                 <div class="c-stats__btm"><img
-                                        src="https://assets-global.website-files.com/5c51b8093dcfd38165099093/614dcd6a13b1073b57cf4c85_food-4-heroes-logo-blue%201.svg"
+                                        src="https://sterlingwordpressfmlacdn.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/12/11180232/sterling-logo-black-1.png"
                                         loading="lazy" alt="" class="c-stats__card-logo is--f4h"></div>
                             </div>
                             <div class="c-stats__card-item">
                                 <div class="c-stats__header">
-                                    <h2 class="heading-2 stats-numbers">21
-                                        tons</h2>
-                                    <p class="faded-text">CO<span class="span-subscript">2</span> cut from package
-                                        deliveries in the UK</p>
+                                    <h2 class="heading-2 stats-numbers">  Shri Hari Development</h2>
+                                    <p class="faded-text">We take infrastructure development to the next level</p>
                                 </div>
-                                <div class="c-stats__btm"><img
-                                        src="https://assets-global.website-files.com/5c51b8093dcfd38165099093/614dcd788dd426d28375dfdf_mule_logo%201.svg"
+                                <div class="c-stats__btm" style="min-height: auto;width: 120px;"><img
+                                        src="<?php bloginfo('template_directory'); ?>/assets/images/shd.jpg"
                                         loading="lazy" alt="" class="c-stats__card-logo"></div>
                             </div>
-                            <div class="c-stats__card-item mg-top">
-                                <div class="c-stats__header">
-                                    <h2 class="heading-2 stats-numbers">97
-                                        tons</h2>
-                                    <p class="faded-text">C02E sequested in
-                                        seaweeds around the globe</p>
-                                </div>
-                                <div class="c-stats__btm"><img
-                                        src="https://assets-global.website-files.com/5c51b8093dcfd38165099093/614dcd852cf3743be823a14b_tsc-logo-h-light%403x%201.svg"
-                                        loading="lazy" alt="" class="c-stats__card-logo"></div>
-                            </div>
-                            <div class="c-stats__card-item">
-                                <div class="c-stats__header">
-                                    <h2 class="heading-2 stats-numbers">£2.1
-                                        million</h2>
-                                    <p class="faded-text">Raised for UK charities
-                                        through digital donations and collections</p>
-                                </div>
-                                <div class="c-stats__btm"><img
-                                        src="https://assets-global.website-files.com/5c51b8093dcfd38165099093/614dcd972ed8365833c3bade_tapsimple-logo-coloured.svg"
-                                        loading="lazy" alt="" class="c-stats__card-logo"></div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

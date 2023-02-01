@@ -301,11 +301,11 @@ footer .col {
 .html-embed-4 {
     margin-left: 0;
 }
-
+/* 
 #wcb.carbonbadge {
     position: absolute;
     z-index: 10;
-}
+} */
 
 .div-block-41 {
     width: 200px;
@@ -319,11 +319,11 @@ footer .col {
     padding-top: 200px;
 }
 
-.c-footer {
+.c-footer{
     background-color: #202020;
 }
 
-.c-footer::before {
+.c-footer::before, .home::before {
     background: linear-gradient(180deg, #000 0%, #282828 100%);
     position: absolute;
     content: "";
@@ -372,6 +372,26 @@ footer .col {
     .c-headline.gradient-pink{
         background-image: linear-gradient(169deg,#8cd6fa,var(--light-blue) 21%,var(--pink) 59%);
     }
+.text-white{
+    color: #fff;
+}
+.f-bottom{
+    display: flex;
+   padding: 0 10vw;
+}
+
+.f-bottom .col{
+width: 100%;
+text-align: center;
+}
+
+.html-embed-4{
+    margin-top: 0 !important;
+}
+
+.marquee_item a{
+color: #000;
+}
 
 /**Media CSS*/
 
@@ -386,5 +406,15 @@ footer .col {
 
     .div-block-41 {
         width: 90px;
+    }
+    .f-bottom{
+        flex-direction: column;
+        padding-bottom: 25px;
+    }
+    .c-hero__grid2{
+        padding-top: 35vh;
+    }
+    .l-hero .w-layout-grid{
+        display: block !important;
     }
 }
