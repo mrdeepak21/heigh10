@@ -51,8 +51,8 @@ the_post();
                         through digital innovation.</h1>
                 </div><a id="open-modal-2" data-w-id="f4d63999-cb65-7d75-e5f3-75b2b06cc970"
                     style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);opacity:0"
-                    href="#" class="c-button no-outlined white-border mrg-tp hero w-inline-block">
-                    <h2 class="c-button__txt">Play showreel</h2><img
+                    href="<?php echo site_url(); ?>/contact-us" class="c-button no-outlined white-border mrg-tp hero w-inline-block">
+                    <h2 class="c-button__txt">Let's Collaborate</h2><img
                         src="<?php bloginfo('template_directory'); ?>/assets/images/icon-enclosed-arrow.svg"
                         loading="lazy" alt="right arrow inside circle" class="c-button--arrow">
                 </a>
@@ -87,6 +87,8 @@ the_post();
                     <div class="c-your-brand__gradient-overlay">
                   
                     </div>
+                    <img src="data:image/png;base64,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" class="anim-logo">
+        
                     <div data-w-id="ad71be2e-72e9-ccd6-e0f3-162960fec76c" data-is-ix2-target="1" class="c-grpahic-temp"
                         data-animation-type="lottie"
                         data-src="<?php bloginfo('template_directory'); ?>/assets/web-anim.json"

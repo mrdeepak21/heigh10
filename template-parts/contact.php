@@ -12,41 +12,45 @@ get_header('5');
 	<footer data-w-id="1b175ab3-d1ad-baea-6bb5-59e25653e69b" class="c-contact-hero wf-section">
 		<div class="w-layout-grid c-contact-grid">
 			<div id="w-node-_1b175ab3-d1ad-baea-6bb5-59e25653e69d-81140177" class="c-grid-block__p4 cc--contact">
-				<div data-w-id="1b175ab3-d1ad-baea-6bb5-59e25653e69e"
-					style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:1"
-					class="c-hero--statement">
+				<div class="c-hero--statement Contact">
 					<h1 class="c-hero--txt">Contact</h1>
 					<h1 class="c-hero--txt is--large long-gradient">Get in
 						touch</h1>
 				</div>
 			</div>
-			<div id="w-node-ccae5761-7003-af69-5fc2-94466dd74194-81140177" class="c-contact--image"></div>
+			<div id="w-node-ccae5761-7003-af69-5fc2-94466dd74194-81140177" class="c-contact--image">
+				<?php the_content(); ?>
+			</div>
 			
-		</div><a href="/careers" class="c-grid__link-block cc--contact w-inline-block">
+		</div>
+		<!-- <a href="<?php echo site_url(); ?>/careers" class="c-grid__link-block cc--contact w-inline-block">
 			<div class="c-link-block__left-col">
 				<div class="c-link-block__vovi-block">
-					<img src="https://assets-global.website-files.com/5c51b8093dcfd38165099093/5ce0f7017c5e2f4ee9ff41ef_vovi-logo.svg"
+					<img src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
 						loading="lazy" width="71" alt="" class="c-team___careers-logo">
 					<h4>Jobs</h4>
 				</div>
 				<h4>View our open positions</h4>
 			</div><img
-				src="https://assets-global.website-files.com/5c51b8093dcfd38165099093/61810e6fea2e5d0411fc634d_vovi-link-arrow.svg"
+				src="<?php bloginfo('template_directory'); ?>/assets/images/right-arrow.svg"
 				loading="lazy" alt="right arrow inside a circle" class="c-button--arrow cc--dark">
-		</a><a data-w-id="65d4a801-7e19-2555-6edb-08eab5b4201b" href="mailto:hello@vovi.studio?subject=Hi%20Vovi!"
+		</a> -->
+		<a data-w-id="65d4a801-7e19-2555-6edb-08eab5b4201b" href="mailto:hello@heigh10.com?subject=Hi%20Heigh10!"
 			class="c-full-width-title-block cc--contact w-inline-block">
 			<div class="c-link__title-wrapper">
-				<div data-split="100" data-split-type="chars" class="c-title-block__text">
-					hello@vovi.studio
-				</div>
-				<div style="-webkit-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-					class="c-title-block__text cc--absolute is--centred">
-					send it
-				</div>
-			</div>
+        <div data-split="100" data-split-type="chars" class=
+        "c-title-block__text" style="text-align:center">
+          hello@heigh10.com
+        </div>
+        <div style=
+        "-webkit-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+        class="c-title-block__text cc--absolute is--centred">
+          send it
+        </div>
+      </div>
 		</a>
 	</footer>
-
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101156.43688887543!2d-122.161793124291!3d37.59889569827581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f91bc5187ea93%3A0x5bacde6cbc648aee!2sUnion%20City%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1675430064687!5m2!1sen!2sin" height="450" style="border:0;width: 100vw;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </main>
 <?php
   get_sidebar();

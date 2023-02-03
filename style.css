@@ -32,6 +32,10 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
     --blue: #3a84ff;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .c-brand {
     mix-blend-mode: difference;
     position: absolute !important;
@@ -227,6 +231,18 @@ footer .menu a:hover::after {
     transform-origin: bottom left;
 }
 
+footer .privacy_menu{
+    display: flex;
+    justify-content: center;
+}
+
+footer .privacy_menu a{
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 30px;
+
+}
+
 .div-block-36 {
     position: relative;
     width: fit-content;
@@ -328,9 +344,9 @@ footer .col {
     position: absolute;
     content: "";
     left: 30%;
-    top: 20%;
-    width: 1220px;
-    height: 792px;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
     border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
     will-change: border-radius, transform, opacity;
     animation: sliderShape 5s linear infinite;
@@ -377,7 +393,8 @@ footer .col {
 }
 .f-bottom{
     display: flex;
-   padding: 0 10vw;
+   padding:0 10vw 20px;
+   border-top: 1px solid #0a0a07;
 }
 
 .f-bottom .col{
@@ -391,6 +408,120 @@ text-align: center;
 
 .marquee_item a{
 color: #000;
+}
+
+#cookie-bar {
+    background-color: #fff;
+    height: auto;
+    line-height: 24px;
+    color: #676666;
+    position: fixed;
+    display: flex;
+    bottom: 10px;
+    width: 715px;
+    font-size: 15px;
+    margin-left: 48px;
+    z-index: 99999999999999999999999999;
+    border-radius: 7px;
+    box-shadow: 0px -2px 16px #00000052;
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+.cookie-img {
+    width: 100px;
+    height: 48px;
+    object-fit: cover;
+    background: url(https://flynaut.com/wp-content/themes/flynaut/images/cookie.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pl-2, .px-2 {
+    padding-left: 0.5rem!important;
+}
+
+.pr-2, .px-2 {
+    padding-right: 0.5rem!important;
+}
+
+#cookie-bar p {
+    margin: 0;
+    padding: 0;
+}
+
+#cookie-bar .cb-enable {
+    background: #fe7200;
+}
+
+#cookie-bar a {
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-left: 8px;
+    font-size: 17px;
+}
+
+
+.c-contact--image{
+    padding: 0 50px 100px !important;
+}
+
+.elementor-form{
+background-color: #ffffff;
+padding: 120px 50px;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+
+.elementor-form label{
+    margin-top: 20px;
+}
+
+
+.elementor-form button{
+    display: inline-block;
+    border: 1px solid #000000 !important;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    color: #000 !important;
+    min-height: 48px;
+    padding: 0.75em 1.5em 0.75em 1.75em;
+    border-radius: 150px;
+    font-weight: 500;
+    background-color: transparent;
+    margin-top: 20px;
+    animation: drop-in 1200ms ease 800ms backwards;
+}
+
+.Contact{
+    animation: drop-in 1200ms ease 800ms backwards;
+}
+
+.anim-logo{
+    position: absolute;
+    top: 350px;
+    display: none;
+}
+
+@keyframes drop-in {
+    from {
+     opacity: 0;
+     transform: translateY(100px);
+    }
+    to {
+     opacity: 1;
+     transform: translate(0px);
+    }
+   }
+
+.elementor-form input, .elementor-form textarea{
+    border: 1px solid #000 !important;
+    border-radius: 8px;
 }
 
 /**Media CSS*/
@@ -416,5 +547,9 @@ color: #000;
     }
     .l-hero .w-layout-grid{
         display: block !important;
+    }
+    .anim-logo{
+        top: 195px;
+        width: 28px;
     }
 }

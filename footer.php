@@ -24,13 +24,13 @@
   <div class="row c-grid-block__p4" id="w-node-_1a3f9d75-fade-0261-77cf-dbcd634834d1-634834ce">
     <div class="col c-footer__address">
       <h3 class="pb-1">USA</h3>
-      <h5 class="heading-4">Heigh10 Digital <br>Union City, <br>
-      CA United States</h5>      
+      <h5 class="heading-4"> Heigh10 Interactive <br>Union City<br>
+      CA, United States</h5>      
   </div>
     <div class="col">
       <h3 class="pb-1">INDIA</h3>
-      <h5 class="heading-4">Heigh10 Digital <br>Mumbai, <br>
-        India</h5>      
+      <h5 class="heading-4"> Heigh10 Interactive <br>Mumbai<br>
+      MH, India</h5>      
     </div>
     <div class="col">
         <?php wp_nav_menu( array( 'theme_location' => 'footer-menu-1' ) ); ?>
@@ -51,13 +51,11 @@
   </footer>
   <div class="f-bottom">
 <div class="col"><p>&copy; <?php echo date('Y');   ?> 
-  <?php bloginfo('name'); ?> 
+  <?php bloginfo('name'); ?>. All Rights Reserved. 
 </p> </div>
-<div class="col"><div class="html-embed-4 w-embed w-script">
-  <div id="wcb" class="carbonbadge"></div>
-  <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
-</div></div>
-<div class="col"><div class="menu"><a href="<?php echo get_privacy_policy_url(); ?>" target="_blank">Privacy Policy</a></div></div>
+<div class="col">
+  <?php wp_nav_menu( array( 'theme_location' => 'privacy-policy',  'menu_class'=> 'menu privacy_menu', 'container'=> false ) ); ?>        
+</div>
   </div>
 </footer>
 </main>

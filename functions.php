@@ -58,6 +58,9 @@ register_nav_menus(array(
 register_nav_menus(array(
     'footer-menu-2'=>'Footer Menu 2'
 ) );
+register_nav_menus(array(
+    'privacy-policy'=>'Privacy Menu'
+) );
 
 
 

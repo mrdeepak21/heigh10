@@ -249,3 +249,15 @@ Webflow.push(function () {
   },8000)
 });
  
+window.onload = loadLogo();
+var cTime = 12500;
+function loadLogo (){
+setTimeout(()=>{
+$('.anim-logo').fadeIn();
+setTimeout(()=>{
+  $('.anim-logo').fadeOut();
+    },3100);
+    loadLogo();
+	},cTime);
+  cTime = 14000;
+}
