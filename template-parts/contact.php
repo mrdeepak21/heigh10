@@ -4,11 +4,19 @@ Template Name: Contact Us
 */
 get_header('5');
 ?>
-
 <div data-w-id="aca8126f-0046-3aac-26f1-36121ae34dd5" class="c-transition-blk--in"></div>
 <div class="c-page-blk--out"></div>
 <div class="c-transition-blk-out--menu"></div>
 <main class="wrapper">
+	<div class="contact-hero">
+		<div class="bottom-shadow">
+			<p>/ Inquiries</p>
+		<h1>
+			Let's get the<br>
+		ball rolling.
+		</h1>
+		</div>
+		</div>
 	<footer data-w-id="1b175ab3-d1ad-baea-6bb5-59e25653e69b" class="c-contact-hero wf-section">
 		<div class="w-layout-grid c-contact-grid">
 			<div id="w-node-_1b175ab3-d1ad-baea-6bb5-59e25653e69d-81140177" class="c-grid-block__p4 cc--contact">
@@ -50,7 +58,6 @@ get_header('5');
       </div>
 		</a>
 	</footer>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101156.43688887543!2d-122.161793124291!3d37.59889569827581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f91bc5187ea93%3A0x5bacde6cbc648aee!2sUnion%20City%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1675430064687!5m2!1sen!2sin" height="450" style="border:0;width: 100vw;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </main>
 <?php
   get_sidebar();

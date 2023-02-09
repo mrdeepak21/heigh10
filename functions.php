@@ -269,7 +269,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 /**
  * Elementor Custom widgets.
  */
-require get_template_directory() . '/inc/elementor-custom-widgets.php';
+// require get_template_directory() . '/inc/elementor-custom-widgets.php';
 
 /**
  * Custom theme Options.
