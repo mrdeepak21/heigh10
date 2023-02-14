@@ -8,6 +8,7 @@
 
 // Back to top button animate at end of the page
     $(document).ready(function(){
+      $('.progress-wrap').fadeIn();
       $('.progress-wrap').addClass('btt-down')
       //Check to see if the window is top if not then display button
       $(window).scroll(function(){
@@ -80,12 +81,12 @@ if (window.location.pathname === '/' || '/new-home') {
  
 
 //OPEN VIDEO MODAL
-$('#open-modal-2').click(function() {
-$('#video-modal-holder').css({'display': 'flex', 'background': 'black'}); 
-$('#hero-text').css({'display': 'none'});
-$('.c-hero__grid-cards').css({'display': 'none'});
-$('.d_fixed_position_wrapper').css({'width': '100%', 'height': '100%'});      
-})
+// $('#open-modal-2').click(function() {
+// $('#video-modal-holder').css({'display': 'flex', 'background': 'black'}); 
+// $('#hero-text').css({'display': 'none'});
+// $('.c-hero__grid-cards').css({'display': 'none'});
+// $('.d_fixed_position_wrapper').css({'width': '100%', 'height': '100%'});      
+// })
 
 
 // TEXT ANIMATIONS ADDING ATTRIBUTES
@@ -120,123 +121,123 @@ $(window).scroll(function () {
 
 
 // -- New Showreel -->
-const bgVideo = $("#bg-video");
-const videosWrapper = $("#videos-wrapper");
-const fixedPositionWrappere = $(".d_fixed_position_wrapper");
+// const bgVideo = $("#bg-video");
+// const videosWrapper = $("#videos-wrapper");
+// const fixedPositionWrappere = $(".d_fixed_position_wrapper");
 
-const vimeoPlayingClass = "cc-reel-playing";
+// const vimeoPlayingClass = "cc-reel-playing";
 
-const animationsTiming = 0;
+// const animationsTiming = 0;
 
-var iframe = document.querySelector("#videos-wrapper iframe");
-var player = document.getElementById("reel-video");
+// var iframe = document.querySelector("#videos-wrapper iframe");
+// var player = document.getElementById("reel-video");
 
-// Functions to enable/disable body scroll
-function lockScroll() {
-  $("html, body").css("overflow", "hidden");
-}
-function unlockScroll() {
-  $("html, body").css("overflow", "auto");
-}
+// // Functions to enable/disable body scroll
+// function lockScroll() {
+//   $("html, body").css("overflow", "hidden");
+// }
+// function unlockScroll() {
+//   $("html, body").css("overflow", "auto");
+// }
 
 // Takes care of the sticky positioning
-function updateOffsetOfReel() {
-  if ($(window).width() <= 767) {
-    $(fixedPositionWrappere).css("transform", `translateY(0px)`);
-    return;
-  }
+// function updateOffsetOfReel() {
+//   if ($(window).width() <= 767) {
+//     $(fixedPositionWrappere).css("transform", `translateY(0px)`);
+//     return;
+//   }
 
-  var scrollTop = $(window).scrollTop(),
-      elementOffset = $("#videos-wrapper").offset().top,
-      distance = elementOffset - scrollTop;
-  $(fixedPositionWrappere).css("transform", `translateY(${-distance}px)`);
-  requestAnimationFrame(updateOffsetOfReel);
-}
-requestAnimationFrame(updateOffsetOfReel);
+//   var scrollTop = $(window).scrollTop(),
+//       elementOffset = $("#videos-wrapper").offset().top,
+//       distance = elementOffset - scrollTop;
+//   $(fixedPositionWrappere).css("transform", `translateY(${-distance}px)`);
+//   requestAnimationFrame(updateOffsetOfReel);
+// }
+// requestAnimationFrame(updateOffsetOfReel);
       
-$('#open-modal-2').click(function () {
-      player.play();
-  lockScroll();
-});
+// $('#open-modal-2').click(function () {
+//       player.play();
+//   lockScroll();
+// });
 
 // Takes care of the functionality with clicks and etc
-$('#video-modal-holder').click(function () {
-  const reelIsPlaying = !player.paused;
+// $('#video-modal-holder').click(function () {
+//   const reelIsPlaying = !player.paused;
 
-  if (reelIsPlaying) {
-    unlockScroll();
-    $('#video-modal-holder').fadeOut(animationsTiming);
-    //$(bgVideo).fadeIn(animationsTiming);
-    $('.d_fixed_position_wrapper').css({'width': '0%', 'height': '0%'});
-    $('#hero-text').css({'display': 'flex'});
-    $('.c-hero__grid-cards').css({'display': 'flex'});
+//   if (reelIsPlaying) {
+//     unlockScroll();
+//     $('#video-modal-holder').fadeOut(animationsTiming);
+//     //$(bgVideo).fadeIn(animationsTiming);
+//     $('.d_fixed_position_wrapper').css({'width': '0%', 'height': '0%'});
+//     $('#hero-text').css({'display': 'flex'});
+//     $('.c-hero__grid-cards').css({'display': 'flex'});
     
-    //$('#video-modal-holder').css({'display': 'none', 'z-index': '0'});
-    player.pause();
+//     //$('#video-modal-holder').css({'display': 'none', 'z-index': '0'});
+//     player.pause();
     
-  } else {
-      $(bgVideo).fadeOut(animationsTiming);
-      $('#video-modal-holder').fadeIn(animationsTiming);
-    $('.d_fixed_position_wrapper').css({'width': '100%', 'height': '100%'});
-    $('#hero-text').css({'display': 'none'});
-    $('.c-hero__grid-cards').css({'display': 'none'});
+//   } else {
+//       $(bgVideo).fadeOut(animationsTiming);
+//       $('#video-modal-holder').fadeIn(animationsTiming);
+//     $('.d_fixed_position_wrapper').css({'width': '100%', 'height': '100%'});
+//     $('#hero-text').css({'display': 'none'});
+//     $('.c-hero__grid-cards').css({'display': 'none'});
     
-    //$('#video-modal-holder').css({'display': 'flex', 'z-index': '10000'});
-    lockScroll();
-    $("html, body").animate(
-      { scrollTop: $(videosWrapper).offset().top },
-      animationsTiming
-    );
-    player.play();
-  }
-});
+//     //$('#video-modal-holder').css({'display': 'flex', 'z-index': '10000'});
+//     lockScroll();
+//     $("html, body").animate(
+//       { scrollTop: $(videosWrapper).offset().top },
+//       animationsTiming
+//     );
+//     player.play();
+//   }
+// });
 
 
 // Cancels buble of event if click on video
-$(player).click((event) => {
-  event.stopPropagation();
-});
+// $(player).click((event) => {
+//   event.stopPropagation();
+// });
 
 // Move the window to top position if it's not there already
-window.addEventListener("resize", handleResize);
-function handleResize() {
-  const reelIsPlaying = !player.paused;
+// window.addEventListener("resize", handleResize);
+// function handleResize() {
+//   const reelIsPlaying = !player.paused;
 
-  if (reelIsPlaying) {
-    unlockScroll();
-    $("html, body").scrollTop($(videosWrapper).offset().top);
-    lockScroll();
-  }
-}
+//   if (reelIsPlaying) {
+//     unlockScroll();
+//     $("html, body").scrollTop($(videosWrapper).offset().top);
+//     lockScroll();
+//   }
+// }
 
-player.addEventListener(
-  "webkitendfullscreen",
-  function () {
-    videoExitedFullscreen(player);
-  },
-  false
-);
+// player.addEventListener(
+//   "webkitendfullscreen",
+//   function () {
+//     videoExitedFullscreen(player);
+//   },
+//   false
+// );
 
-function videoExitedFullscreen(videoElement) {
-  //check if an element is currently full screen
-  if (
-    document.fullScreenElement ||
-    document.webkitIsFullScreen == true ||
-    document.mozFullScreen ||
-    document.msFullscreenElement
-  ) {
-    //do whatever here if the video is now (just became) full screen
-  } else {
-    unlockScroll();
-    $('#video-modal-holder').fadeOut(animationsTiming);
-    $('.d_fixed_position_wrapper').css({'width': '0%', 'height': '0%'});
-    $('#hero-text').css({'display': 'flex'});
-    $('.c-hero__grid-cards').css({'display': 'flex'});
-    player.pause();
-    console.log("fullscreen was closed");
-    //do whatever you want on fullscreen close, like pause or mute
-  }
-}
+// function videoExitedFullscreen(videoElement) {
+//   //check if an element is currently full screen
+//   if (
+//     document.fullScreenElement ||
+//     document.webkitIsFullScreen == true ||
+//     document.mozFullScreen ||
+//     document.msFullscreenElement
+//   ) {
+//     //do whatever here if the video is now (just became) full screen
+//   } else {
+//     unlockScroll();
+//     $('#video-modal-holder').fadeOut(animationsTiming);
+//     $('.d_fixed_position_wrapper').css({'width': '0%', 'height': '0%'});
+//     $('#hero-text').css({'display': 'flex'});
+//     $('.c-hero__grid-cards').css({'display': 'flex'});
+//     player.pause();
+//     console.log("fullscreen was closed");
+//     //do whatever you want on fullscreen close, like pause or mute
+//   }
+// }
 
  
 
@@ -249,6 +250,8 @@ Webflow.push(function () {
   },8000)
 });
  
+
+// Add Logo in Animation
 window.onload = loadLogo();
 var cTime = 12500;
 function loadLogo (){
@@ -261,3 +264,48 @@ setTimeout(()=>{
 	},cTime);
   cTime = 14000;
 }
+
+// Cookie --start
+
+$(document).ready(()=>{setTimeout(()=>{
+  if(!getCookie('cookie-accepted')){
+  $('body').append('<div id="cookie-bar" style="display:none"><span class="close-cookie cb-enable"> &#215;</span><div class="cookie-img"></div><p class="px-2">We use cookies to ensure that we give you the best experience on our website. By using our website, you agree to our <a style="color:#fff;text-decoration:underline" href="/privacy-policy/" target="_blank">privacy policy</a>.</p><button class="cb-enable">Accept</button></div>');
+  $('#cookie-bar').fadeIn();
+  }
+  $('#cookie-bar .cb-enable').click(()=>{
+    $('#cookie-bar').fadeOut('slow');
+    setCookie('cookie-accepted',true,365);
+  });
+},5000);
+}); 
+
+if(getCookie('loaderShown')){
+  $('.w_loader').hide();
+} else {
+  setTimeout(()=>{setCookie('loaderShown',true,1)},3000);
+}
+
+function setCookie(name,value,days) {
+  var expires = "";
+  if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days*24*60*60*1000));
+      expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for(var i=0;i < ca.length;i++) {
+      var c = ca[i];
+      while (c.charAt(0)==' ') c = c.substring(1,c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+  }
+  return false;
+}
+// function eraseCookie(name) {   
+//   document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+// }
+
+// Cookie --end

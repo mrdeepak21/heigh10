@@ -6,56 +6,20 @@
  *
  * @package Heigh10
  */
-
-get_header('1');
+get_header('5');
 ?>
-
-	<main id="primary" class="site-main">
-
-		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'heigh10' ); ?></h1>
-			</header><!-- .page-header -->
-
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'heigh10' ); ?></p>
-
-					<?php
-					get_search_form();
-
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'heigh10' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories(
-								array(
-									'orderby'    => 'count',
-									'order'      => 'DESC',
-									'show_count' => 1,
-									'title_li'   => '',
-									'number'     => 10,
-								)
-							);
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$heigh10_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'heigh10' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$heigh10_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-            <a href="<?php echo site_url(); ?>" class="fullbutton fullbutton-mat fullbtn"><div class="fullpsuedo-text">Homepage</div></a>
-
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
-
-	</main><!-- #main -->
-
-<?php
+<main style="height: 100vh;display: flex;align-items: center;justify-content: center;background-color: #ccc;flex-direction: column;gap: .5em;" class="bg-dark">
+	<lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_conoeouc.json"  background="transparent"  speed="1"  loop autoplay style="height: 20em;"></lottie-player>
+	<h2>Oops! That page can't be found.</h2>
+	<p>
+	It looks like nothing was found at this location.
+</p> 
+				<a id="open-modal" data-w-id=
+				"31ef9bc4-f230-41b1-8f0e-301057e815d7" href="<?php echo site_url(); ?>"
+				class=
+				"c-button no-outlined black open-intercom w-inline-block">
+				<h6 class="button_h3"> Back to Homepage</h6></a>
+			</main>
+			<script defer src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+			<?php
 get_footer();

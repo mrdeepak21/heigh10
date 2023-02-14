@@ -14,7 +14,7 @@
  */
 
 
-get_header('5');
+get_header();
 the_post();
 the_content();
 get_sidebar();

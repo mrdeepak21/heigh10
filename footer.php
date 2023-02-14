@@ -62,7 +62,6 @@
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.js" type="text/javascript"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/main.js" type="text/javascript"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/custom.js" type="text/javascript"></script>
-<script src="<?php bloginfo('template_directory'); ?>/assets/js/flynaut.js" type="text/javascript"></script>
 <!-- swiper JS -->
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/swiper-bundle.min.js"></script>
 

@@ -20,36 +20,16 @@ the_post();
 
 <main class="wrapper">
     <section id="videos-wrapper" data-w-id="2471157c-ace6-4b6a-b0ea-3212755ec3c7" class="l-hero home wf-section">
-        <div class="w-layout-grid c-hero__grid2"> 
-
-            <a data-w-id="70363ef7-0b3d-e562-e61d-36480b0518a3" href=
-            "/careers" class="c-hero__hiring-link w-inline-block">
-            <div data-w-id="b2e23255-3eb9-09a0-b8a0-3d0b7c68a862"
-            style="opacity:0;-webkit-transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
-              We're hiring
-            </div>
-            <div data-w-id="237c2dad-cd76-50a0-1808-bde8ef6aafa5"
-            style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-            class="div-block-27"></div>
-            <h6 data-w-id="7156dacc-a774-3273-d174-e807ff71a30b" style=
-            "opacity:0;-webkit-transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-            class="c-button__txt">View jobs</h6><img src=
-            "https://assets-global.website-files.com/5c51b8093dcfd38165099093/5f959b1cd3283e540294ea95_icon-enclosed-arrow.svg"
-            loading="lazy" style=
-            "opacity:0;-webkit-transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-4px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-            data-w-id="c6ed6e3f-c811-578c-6843-69be1ddf7b67" alt=
-            "right arrow inside circle" class=
-            "c-button--arrow is--less"></a>
+        <div class="w-layout-grid c-hero__grid2">
             
-            <div id="w-node-_2471157c-ace6-4b6a-b0ea-3212755ec3ca-511400ed" class="c-grid-block__p4 cc--home-hero">                
+            <div id="w-node-_2471157c-ace6-4b6a-b0ea-3212755ec3ca-511400ed" class="c-grid-block__p5 cc--home-hero">                
                 <div data-w-id="2471157c-ace6-4b6a-b0ea-3212755ec3cb"
                     style="-webkit-transform:translate3d(0, 3em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 4deg);-moz-transform:translate3d(0, 3em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 4deg);-ms-transform:translate3d(0, 3em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 4deg);transform:translate3d(0, 3em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 4deg);opacity:0"
                     class="c-hero--statement">
                     <h6 class="font_caps" data-splitting>/ Digital Agency</h6>
-                    <h1 class="c-hero--txt">We help businesses </h1> 
-                    <h1 class="c-hero--txt is--large long-gradient">launch and grow<br>
-                        through digital innovation.</h1>
-                </div><a id="open-modal-2" data-w-id="f4d63999-cb65-7d75-e5f3-75b2b06cc970"
+                    <h1 class="c-hero--txt">We help businesses <span class="c-hero--txt is--large long-gradient">launch and grow
+                        through digital innovation.</span> </h1> 
+                </div> <a data-w-id="f4d63999-cb65-7d75-e5f3-75b2b06cc970"
                     style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);opacity:0"
                     href="<?php echo site_url(); ?>/contact-us" class="c-button no-outlined white-border mrg-tp hero w-inline-block">
                     <h2 class="c-button__txt">Let's Collaborate</h2><img
@@ -59,7 +39,7 @@ the_post();
             </div>
             
         </div>
-        <div class="d_fixed_position_wrapper new">
+        <!-- <div class="d_fixed_position_wrapper new">
             <div id="video-modal-holder" class="vimeo-wrapper hidden">
                 <div id="video-content" class="c-ctn cc-centered-content video-holder">
                     <div id="reel-container" class="c-reel new">
@@ -78,7 +58,7 @@ the_post();
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
     <section data-w-id="b1610442-27d1-5dc9-fbb1-9b384f7af97f" class="l-section cc--dark wf-section">
         <div class="c-grid-wrapper">
@@ -101,11 +81,11 @@ the_post();
                         <div style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
                             class="c-txt-wrapper">
                             <h6 class="font_caps" data-splitting>/ Introduction</h6>
-                            <h2 class="long-gradient">We are a team of passionate,  young and industry leading designers, developers, and strategists, world-class digital experiences at the heart of Silicon Valley.</h2>
+                            <h2 class="long-gradient" style="font-size:2.5rem">We are a team of passionate, young, and industry-leading designers, developers, and strategists, producing world-class digital experiences at the heart of Silicon Valley.</h2>
                         </div><a data-w-id="1cb59165-78d2-c82e-0352-b9998f1c49cb"
                             style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
-                            href="/our-services" class="c-button outlined white mrg-tp w-inline-block">
-                            <h3 class="c-button__txt">Our Services</h3><img
+                            href="<?php echo site_url(); ?>/expertise/" class="c-button outlined white mrg-tp w-inline-block">
+                            <h3 class="c-button__txt">Explore Our Expertise</h3><img
                                 src="<?php bloginfo('template_directory'); ?>/assets/images/icon-enclosed-arrow.svg"
                                 loading="lazy" alt="right arrow inside circle" class="c-button--arrow">
                         </a>
@@ -122,12 +102,11 @@ the_post();
                         <div style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
                             class="c-ttl-blk">
                             <h6 class="font_caps" data-splitting>/ Our Approach</h6>                            
-                            <h2 class="c-headline cc-home">We create a hand-crafted digital </h2>
-                            <h2 class="c-headline gradient-pink cc-home">experience unique to each project.</h2>
+                            <h2 class="c-headline cc-home" style="font-size: 3.998em">We create a hand-crafted digital <span class="c-headline gradient-pink cc-home">experience unique to each project.</span></h2>                            
                         </div>
                         <div style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
                             class="c-txt-blk--flex">
-                            <p class="c-txt-blk__txt is--copy">We stimulate growth for your business by making your brand more compelling online. By combining insight, creativity and technology we transform your digital customer experiences or stimulate new growth with new initiatives. We are always here to deliver the results you need.</p>
+                            <p class="c-txt-blk__txt is--copy">We foster growth for your business by making your brand more compelling online. By combining data insights, creativity, and technology, we transform your customer experiences and enable new growth. We are always here to deliver the results you need.</p>
                         </div>
                     </div>
                 </div>
@@ -150,7 +129,7 @@ the_post();
                                 <div class="c-stats__header">
                                     <h2 class="heading-2 stats-numbers">
                                     ACN</h2>
-                                    <p class="faded-text">Providing amazing support through all stages of life</p>
+                                    <p class="faded-text">Providing support through the latter stages of life</p>
                                 </div>
                                 <div class="c-stats__btm"><img
                                         src="https://acnwpproduction.s3-us-west-1.amazonaws.com/wp-content/uploads/2020/01/amazingcare.png"
@@ -167,6 +146,18 @@ the_post();
                                         loading="lazy" alt="" class="c-stats__card-logo is--f4h"></div>
                             </div>
                             <div class="c-stats__card-item">
+                                <div class="c-stats__header">
+                                    <h2 class="heading-2 stats-numbers">
+                                        Sterling Foundation
+                                        Website
+                                        </h2>
+                                    <p class="faded-text"></p>
+                                </div>
+                                <div class="c-stats__btm"><img
+                                        src="https://sterlingwordpressfmlacdn.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/12/11180232/sterling-logo-black-1.png"
+                                        loading="lazy" alt="" class="c-stats__card-logo is--f4h"></div>
+                            </div>
+                            <div class="c-stats__card-item" style="margin-top: -6em;">
                                 <div class="c-stats__header">
                                     <h2 class="heading-2 stats-numbers">  Shri Hari Development</h2>
                                     <p class="faded-text">We take infrastructure development to the next level</p>
