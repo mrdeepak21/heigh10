@@ -20,7 +20,8 @@ get_header();
 	<div data-w-id="1b175ab3-d1ad-baea-6bb5-59e25653e69b" class="c-contact-hero wf-section" style="background: #000;">
 		<div class="d-flex">
 			<div class="c-grid-block__p4 cc--contact">
-				<div class="c-hero--statement Contact">
+				<div class="c-hero--statement Contact" data-w-id="6b0044af-cfeb-c4a5-c4cd-13a67fc3d0e3"
+				style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0;">
 					<h1 class="c-hero--txt" style="color: #fff;">Contact</h1>
 					<h1 class="c-hero--txt is--large long-gradient">Get in
 						touch</h1>
@@ -31,18 +32,7 @@ get_header();
 			</div>
 			
 		</div>
-		<!-- <a href="<?php echo site_url(); ?>/careers" class="c-grid__link-block cc--contact w-inline-block">
-			<div class="c-link-block__left-col">
-				<div class="c-link-block__vovi-block">
-					<img src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
-						loading="lazy" width="71" alt="" class="c-team___careers-logo">
-					<h4>Jobs</h4>
-				</div>
-				<h4>View our open positions</h4>
-			</div><img
-				src="<?php bloginfo('template_directory'); ?>/assets/images/right-arrow.svg"
-				loading="lazy" alt="right arrow inside a circle" class="c-button--arrow cc--dark">
-		</a> -->
+		
 		<a data-w-id="65d4a801-7e19-2555-6edb-08eab5b4201b" href="mailto:hello@heigh10.com?subject=Hi%20Heigh10!"
 			class="c-full-width-title-block cc--contact w-inline-block" style="background: #fff;">
 			<div class="c-link__title-wrapper">
@@ -50,8 +40,8 @@ get_header();
         "c-title-block__text" style="text-align:center;color: #000;">
           hello@heigh10.com
         </div>
-        <div style=
-        "-webkit-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+        <div data-w-id="6b0044af-cfeb-c4a5-c4cd-13a67fc3d0e3" style=
+        "-webkit-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50%, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity: 1;"
         class="c-title-block__text cc--absolute is--centred">
           send it
         </div>

@@ -249,21 +249,7 @@ Webflow.push(function () {
     $(".w_loader").css("display","none")
   },8000)
 });
- 
 
-// Add Logo in Animation
-window.onload = loadLogo();
-var cTime = 12500;
-function loadLogo (){
-setTimeout(()=>{
-$('.anim-logo').fadeIn();
-setTimeout(()=>{
-  $('.anim-logo').fadeOut();
-    },3100);
-    loadLogo();
-	},cTime);
-  cTime = 14000;
-}
 
 // Cookie --start
 
@@ -309,3 +295,17 @@ function getCookie(name) {
 // }
 
 // Cookie --end
+
+//Smooth Scroll    --start
+// $(document).ready(function(){
+	
+// 	$(window).on('scroll', function(){
+// 		var wHeight = $(window).height() - 100;
+// 		var scrollTop = $(window).scrollTop() - 100;
+// 		$('section').css('transform','translate3d(0px, -'+ (scrollTop-wHeight)  +'px , 0px)');
+		
+// 	});
+	
+// });
+
+//Smooth Scroll    --end

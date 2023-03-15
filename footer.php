@@ -1,6 +1,6 @@
 <footer class="c-footer-new">
-  <footer data-w-id="1a3f9d75-fade-0261-77cf-dbcd634834cf" class="c-footer wf-section">
-    <div id="w-node-_1a3f9d75-fade-0261-77cf-dbcd634834f4-634834ce" class="c-grid-block__p4 cta1">        
+  <footer class="c-footer wf-section">
+    <div id="w-node-_1a3f9d75-fade-0261-77cf-dbcd634834f4-634834ce" data-w-id="6b0044af-cfeb-c4a5-c4cd-13a67fc3d0e3" style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0" class="c-grid-block__p4 cta1">        
       <a href="mailto:<?php echo get_theme_mod('mail_us'); ?>" class="div-block-36 h5" style="display: flex;align-items: center;justify-content: center;">
         <h2 class="c-hero--txt is--large text-white">Let's &nbsp;</h2>
         <div style="display: flex;align-items: center;justify-content: center;">
@@ -33,10 +33,10 @@
       MH, India</h5>      
     </div>
     <div class="col">
-        <?php wp_nav_menu( array( 'theme_location' => 'footer-menu-1' ) ); ?>
+        <?php wp_nav_menu( array( 'theme_location' => 'footer-menu-1', 'menu_class'=> 'nav_menu' ) ); ?>
     </div>
     <div class="col">
-        <?php wp_nav_menu( array( 'theme_location' => 'footer-menu-2' ) ); ?>        
+        <?php wp_nav_menu( array( 'theme_location' => 'footer-menu-2','menu_class'=> 'nav_menu' ) ); ?>        
     </div>
     <div class="col">
         <div class="footer">           
@@ -54,7 +54,7 @@
   <?php bloginfo('name'); ?>. All Rights Reserved. 
 </p> </div>
 <div class="col">
-  <?php wp_nav_menu( array( 'theme_location' => 'privacy-policy',  'menu_class'=> 'menu privacy_menu', 'container'=> false ) ); ?>        
+  <?php wp_nav_menu( array( 'theme_location' => 'privacy-policy',  'menu_class'=> 'nav_menu privacy_menu', 'container'=> false ) ); ?>        
 </div>
   </div>
 </footer>
@@ -64,6 +64,7 @@
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/custom.js" type="text/javascript"></script>
 <!-- swiper JS -->
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/swiper-bundle.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/assets/js/parallelx.js"></script>
 
 <script>
   
@@ -228,6 +229,7 @@
     },
   });
 </script>
+<script defer src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 
 </html>

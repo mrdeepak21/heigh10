@@ -2,7 +2,7 @@
 /*
 Template Name: Careers
 */
-get_header('5');
+get_header();
 ?>
   <div class="wrapper">
     <section id="videos-wrapper" data-w-id=

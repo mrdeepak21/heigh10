@@ -13,7 +13,7 @@
  * @package Heigh10
  */
 
-get_header('1'); ?>
+get_header(); ?>
 
 <div class="container-fluid bg-blog pb-xl-5">
     <div class="row blog-list-header">

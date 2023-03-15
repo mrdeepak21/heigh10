@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="6298f01be8fd682a511400ed" data-wf-site="5c51b8093dcfd38165099093" <?php language_attributes(); ?>>
+<html data-wf-page="6343efb8fa84ac02dc957448" data-wf-site="5c51b8093dcfd38165099093" <?php language_attributes(); ?>>
 
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -164,8 +164,12 @@
       background: #ffffff
     }
   </style>
+  <script type="text/javascript">
+    !function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);
+  </script>
   <?php wp_head(); ?>
 </head>
+
 <body <?php body_class("body");?>>
   <?php wp_body_open(); ?>
   <div
@@ -198,10 +202,8 @@
   <!--End Back to top -->
 
 
-  <a href="<?php echo site_url(); ?>" aria-current="page"
-    class="c-brand w-inline-block w--current">
-    <img
-      src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
+  <a href="<?php echo site_url(); ?>" aria-current="page" class="c-brand w-inline-block w--current">
+    <img src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
       width="65" alt="Heigh10" class="c-brand__image"><img
       src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
       alt="letter o" class="c-brand--image__o"><img
@@ -229,26 +231,26 @@
             'add_a_attr' => '7d0200cc-4c86-f377-2431-ce8f396a4d13'
             ));
           ?>
-          
-                
+
+
+        </div>
+        <div id="w-node-_7d0200cc-4c86-f377-2431-ce8f396a4d1e-396a4d06"
+          class="c-footer__grid-cards menu f-bottom mt-250 p-0">
+          <div class="col">
+            <a href="<?php echo site_url(); ?>/contact-us" data-w-id="96fbbb74-ce84-3c79-6e1c-84ff9df337f7"
+              style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);opacity:0;margin-top: 2em;"
+              class="c-button no-outlined black hero w-inline-block">
+              <h6 class="c-button__txt">Let's Collaborate</h6><img
+                src="<?php bloginfo('template_directory'); ?>/assets/images/right-arrow.svg" loading="lazy" alt=""
+                class="c-button--arrow">
+            </a>
           </div>
-          <div id="w-node-_7d0200cc-4c86-f377-2431-ce8f396a4d1e-396a4d06" class="c-footer__grid-cards menu f-bottom mt-250 p-0" style="padding: 0 50px !important">
-            <div class="col" ><a href="" data-w-id="f4d63999-cb65-7d75-e5f3-75b2b06cc970"
-              class=
-              "c-button no-outlined black hero w-inline-block" style="margin-top: 2em;">
-              <h6 class="c-button__txt">Let's Collaborate</h6><img src=
-              "<?php bloginfo('template_directory'); ?>/assets/images/right-arrow.svg"
-              loading="lazy" alt="" class="c-button--arrow"></a></div>
-            <div class="col" style="display: flex;
-            flex-direction: row;
-            justify-content: end;
-            align-items: center;
-            margin-top: 2em;">
-              <a href="<?php echo get_theme_mod('social_links'); ?>"
-                target="_blank" style="font-size: 14px;"><b>ln</b></a> 
-              <?php wp_nav_menu( array( 'theme_location' => 'privacy-policy',  'menu_class'=> 'menu privacy_menu', 'container'=> false ) ); ?>        
-            </div>
-              </div>
+          <div class="col menu_bottom">
+            <a href="<?php echo get_theme_mod('social_links'); ?>" target="_blank"
+              style="font-size: 14px;color:#000"><b>ln</b></a>
+            <?php wp_nav_menu( array( 'theme_location' => 'privacy-policy',  'menu_class'=> 'nav_menu privacy_menu', 'container'=> false ) ); ?>
+          </div>
+        </div>
       </div>
       <div class="menu__background"></div>
     </div>

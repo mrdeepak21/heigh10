@@ -6,7 +6,7 @@
  *
  * @package Heigh10
  */
-get_header('5');
+get_header();
 ?>
 <main style="height: 100vh;display: flex;align-items: center;justify-content: center;background-color: #ccc;flex-direction: column;gap: .5em;" class="bg-dark">
 	<lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_conoeouc.json"  background="transparent"  speed="1"  loop autoplay style="height: 20em;"></lottie-player>
@@ -20,6 +20,5 @@ get_header('5');
 				"c-button no-outlined black open-intercom w-inline-block">
 				<h6 class="button_h3"> Back to Homepage</h6></a>
 			</main>
-			<script defer src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 			<?php
 get_footer();

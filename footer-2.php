@@ -1,88 +1,74 @@
- <footer class="color_creme" data-scroll-section >
-
-  <div class="footer__background" data-scroll data-scroll-repeat data-scroll-speed="-6" data-scroll-offset="0">
-    <div id="footerblob" class="blob">
-      <canvas></canvas>
-    </div>
-  </div>
-    
-
-
-  <div class="footer_content" data-scroll data-scroll-speed="-4">  
-    <div id="inner_footer" >
-      <a id="" href="mailto:hello@fleava.com" class="main_link menu_fade">
-        Let's Talk.
+<footer class="c-footer-new" data-scroll-section>
+  <footer class="c-footer wf-section"  data-scroll data-scroll-speed="-4">
+    <div id="w-node-_1a3f9d75-fade-0261-77cf-dbcd634834f4-634834ce" data-w-id="6b0044af-cfeb-c4a5-c4cd-13a67fc3d0e3"
+      style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
+      class="c-grid-block__p4 cta1">
+      <a href="mailto:<?php echo get_theme_mod('mail_us'); ?>" class="div-block-36 h5"
+        style="display: flex;align-items: center;justify-content: center;">
+        <h2 class="c-hero--txt is--large text-white">Let's &nbsp;</h2>
+        <div style="display: flex;align-items: center;justify-content: center;">
+          <div class="div-block-39">
+            <h2 class="co c-hero--txt is--large long-gradient">Co</h2>
+          </div>
+          <div class="div-block-41">
+            <div class="lottie-animation-2 c-hero--txt is--large" data-w-id="78b1404a-ffbe-fa92-9807-8ff36c095341"
+              data-animation-type="lottie" data-src="<?php bloginfo('template_directory'); ?>/assets/ping-pong.json"
+              data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg"
+              data-default-duration="2.602602496596432" data-duration="0">
+            </div>
+          </div>
+          <div class="div-block-40">
+            <h2 class="co c-hero--txt is--large long-gradient">aborate</h2>
+          </div>
+        </div>
       </a>
     </div>
-
-    
-
-    <nav class="address menu_fade">
-      <div class="text">
-        <div class="textrow">
-          <div class="textcol">
-            <h5>
-              <a href="sg.html" class="" title="Fleava — Singapore Digital Agency">Singapore</a>
-            </h5>
-
-            <address>
-              <p><small><strong>FLEAVA PTE. LTD.</strong><br>160 Robinson Road, #14-04 <br/>Singapore Business Federation <br/>Centre - 068914, Singapore</small></p>
-            </address>
-
-          </div>
-          <div class="textcol">
-            <h5>
-              <a href="id.html" class="" title="Fleava — Bali Digital Agency">Bali, Indonesia</a>
-            </h5>
-
-            <address>
-              <p><small><strong>PT FLEAVA DIGITAL MEDIA</strong><br>Jalan Merta Agung, No.25, <br/>Kerobokan Kelod, Badung, <br/>Bali - 80361, Indonesia</small></p>
-            </address>
-            
-          </div>
-          <div class="textcol mob_half">
-            <h5>
-              <a href="index.html" title="Home" class="inner_link">Home</a>
-              <a href="works.html" title="Works" class="inner_link">Works <sup>12</sup></a>
-					    <a href="expertise.html" title="Expertise" class="inner_link">Expertise <sup>06</sup></a>
-              <a href="about.html" title="About" class="inner_link">About</a>
-              <a href="journal.html" title="Journal" class="inner_link">Journal <sup>33</sup></a>
-            </h5>
-          </div>
-          <div class="textcol mob_half">
-            <h5>
-              <a href="awards.html" title="Awards" class="inner_link">Awards <sup>52</sup></a>
-              <a href="brands.html" title="Brands" class="inner_link">Brands <sup>124</sup></a>
-              <a href="careers.html" title="Careers" class="inner_link">Careers <sup>04</sup></a>
-					    <a href="inquiry.html" title="Inquire" class="inner_link">Inquiries</a>
-              
-              <a href="../external.html?link=https://transform.fleava.com/" target="_blank" rel="noopener noreferrer" title="Transform with Fleava" class="">Transform &nbsp; &#8594;</a>
-            </h5>
-          </div>
-          <div class="textcol mob_half social">
-              <a class="" href="../external.html?link=https://www.facebook.com/fleava/" target="_blank" rel="noopener noreferrer" title="Fleava on Facebook">Fb &nbsp;</a>
-              <a class="" href="../external.html?link=https://www.instagram.com/fleava/" target="_blank" rel="noopener noreferrer" title="Fleava on Instagram">Ig &nbsp;</a>
-              <a class="" href="../external.html?link=https://twitter.com/fleava" target="_blank" rel="noopener noreferrer" title="Fleava on Twitter">Tw &nbsp;</a>
-              <a class="" href="../external.html?link=https://www.linkedin.com/company/fleava/" target="_blank" rel="noopener noreferrer" title="Fleava on LinkedIn">In &nbsp;</a>
-              <a class="" href="../external.html?link=https://www.behance.net/fleava" target="_blank" rel="noopener noreferrer" title="Fleava on Behance">Bē &nbsp;</a><br>
-              
-              &copy; <span id="copyrightYear">2020 </span> <a href="index.html" title="Fleava — Singapore, Bali, Jakarta Digital Agency">Fleava. </a>
-              <br><br><a class="" href="terms.html">Terms. </a> &nbsp;
-              <a class="" href="sitemap.html">Sitemap.</a>
-          </div>
-        </div>
-        
+    <div class="row c-grid-block__p4" id="w-node-_1a3f9d75-fade-0261-77cf-dbcd634834d1-634834ce">
+      <div class="col c-footer__address">
+        <h3 class="pb-1">USA</h3>
+        <h5 class="heading-4"> Heigh10 Interactive <br>Union City<br>
+          CA, United States</h5>
       </div>
-    </nav>
+      <div class="col">
+        <h3 class="pb-1">INDIA</h3>
+        <h5 class="heading-4"> Heigh10 Interactive <br>Mumbai<br>
+          MH, India</h5>
+      </div>
+      <div class="col">
+        <?php wp_nav_menu( array( 'theme_location' => 'footer-menu-1','menu_class'=> 'nav_menu' ) ); ?>
+      </div>
+      <div class="col">
+        <?php wp_nav_menu( array( 'theme_location' => 'footer-menu-2', 'menu_class'=> 'nav_menu' ) ); ?>
+      </div>
+      <div class="col">
+        <div class="footer">
+          <a href="<?php echo get_theme_mod('social_links'); ?>" target="_blank" class="h5"><b>ln</b></a><br>
+          <br>
 
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <div class="f-bottom">
+    <div class="col">
+      <p>&copy;
+        <?php echo date('Y');   ?>
+        <?php bloginfo('name'); ?>. All Rights Reserved.
+      </p>
+    </div>
+    <div class="col">
+      <?php wp_nav_menu( array( 'theme_location' => 'privacy-policy',  'menu_class'=> 'nav_menu privacy_menu', 'container'=> false ) ); ?>
+    </div>
   </div>
 </footer>
-                    
-                </div>
+</div>
+</div>
+</div>
+<script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.js" type="text/javascript"></script>
+<script src="<?php bloginfo('template_directory'); ?>/assets/js/main.js" type="text/javascript"></script>
+<script src="<?php bloginfo('template_directory'); ?>/assets/js/custom.js" type="text/javascript"></script>
+<script defer src="<?php bloginfo('template_directory'); ?>/assets/js/scripts.js"></script>
+</body>
 
-            </div>
-        </div>
-
-      
-    </body>
 </html>

@@ -9,8 +9,6 @@ get_header('4');
     <div class="barba-container">
         <div data-scroll-container>
             <main id="main">
-
-
                 <div class="header_animate" data-scroll-section>
                     <section class="section large-pb section__header">
                         <div class="q-container container-inner">
@@ -161,7 +159,7 @@ get_header('4');
                                         </div>
                                     </div>
                                     <div class="work_caption">
-                                        <span class="client">Web + App Development</span>
+                                        <span class="client">Web Development</span>
                                         <span class="line_sep"></span>
                                     </div>
                                     <h4>We code beautiful and interactive Website and Apps.</h4>
@@ -215,7 +213,7 @@ get_header('4');
                                         </div>
                                     </div>
                                     <div class="work_caption">
-                                        <span class="client">Media Production</span>
+                                        <span class="client">Communication</span>
                                         <span class="line_sep"></span>
 
                                     </div>
@@ -231,10 +229,6 @@ get_header('4');
 
                     </div>
                 </section>
-
-
-           
-
-
+                </main>
             <?php
 get_footer('2');
