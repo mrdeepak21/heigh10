@@ -69,6 +69,7 @@
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/main.js" type="text/javascript"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/custom.js" type="text/javascript"></script>
 <script defer src="<?php bloginfo('template_directory'); ?>/assets/js/scripts.js"></script>
+<?php wp_footer(); ?>
 </body>
 
 </html>

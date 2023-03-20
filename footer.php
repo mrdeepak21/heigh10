@@ -230,6 +230,7 @@
   });
 </script>
 <script defer src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<?php wp_footer(); ?>
 </body>
 
 </html>

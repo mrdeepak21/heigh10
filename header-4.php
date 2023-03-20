@@ -48,7 +48,7 @@
 		</div> -->
 	<!--End Back to top -->
 
-
+<div style="position: relative;">
 	<a href="<?php echo site_url(); ?>" aria-current="page" class="c-brand w-inline-block w--current">
 		<img src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
 			width="65" alt="Heigh10" class="c-brand__image"><img
@@ -65,8 +65,9 @@
 				data-duration="0"></div>
 		</div>
 	</div>
+</div>
 	<nav class="c-menu navigation">
-		<div class="c-menu--wrapper new" style="align-items: flex-start;">
+		<div class="c-menu--wrapper new">
 			<div class="c-menu--flex new">
 				<div id="w-node-_7d0200cc-4c86-f377-2431-ce8f396a4d09-396a4d06" class="mt-250">
 					<?php wp_nav_menu( array( 

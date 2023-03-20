@@ -161,15 +161,15 @@ add_filter( 'nav_menu_link_attributes', 'add_class_to_href', 10, 2 );
 	add_theme_support('custom-logo');
 
 
-    /*Custom logo sticky*/
-// add_action('customize_register', function ($wp_customize){
-//     $wp_customize->add_setting('dark_logo');
-// $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'dark_logo', array(
-//     'label'    => __('Dark Logo', 'store-front'),
-//     'section'  => 'title_tagline',
-//     'settings' => 'dark_logo',
-//     'priority'       => 4,
-// )));
+    /*ICON logo*/
+add_action('customize_register', function ($wp_customize){
+    $wp_customize->add_setting('icon-logo');
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'icon-logo', array(
+    'label'    => __('Icon Logo', 'store-front'),
+    'section'  => 'title_tagline',
+    'settings' => 'icon-logo',
+    'priority'       => 4,
+)));
 
 //     $wp_customize->add_setting('footer_logo');
 // $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'footer_logo', array(
@@ -178,7 +178,7 @@ add_filter( 'nav_menu_link_attributes', 'add_class_to_href', 10, 2 );
 //     'settings' => 'footer_logo',
 //     'priority'       => 4,
 // )));
-// });
+ });
 
 }
 

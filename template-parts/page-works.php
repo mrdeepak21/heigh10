@@ -28,7 +28,7 @@ get_header('4');
 
                                 <!-- Sterling Administration -->
                                 <div class="column q-1-2">
-                                    <a href="#" data-scroll data-color="#EAF8FF" data-bg="#102F4B"
+                                    <a href="<?php site_url(); ?>work/sterling-administration/" data-scroll data-color="#EAF8FF" data-bg="#102F4B"
                                         data-hover="View" data-col="#79B4D3">
                                         <div class="half_image image_zoom_wrapper">
                                             <div class="image_zoom">
