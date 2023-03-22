@@ -933,3 +933,6 @@ footer .col {
 }
 
 
+.bg_img{
+    filter: brightness(.3);
+}

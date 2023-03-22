@@ -27,13 +27,13 @@ get_header('4');
                             <div class="columns">
 
                                 <!-- Sterling Administration -->
-                                <div class="column q-1-2">
-                                    <a href="<?php site_url(); ?>work/sterling-administration/" data-scroll data-color="#EAF8FF" data-bg="#102F4B"
+                                <div class="column q-1-2">                                    
+                                    <a href="<?php echo site_url(); ?>/work/sterling-administration/" data-scroll data-color="#EAF8FF" data-bg="#102F4B"
                                         data-hover="View" data-col="#79B4D3">
                                         <div class="half_image image_zoom_wrapper">
                                             <div class="image_zoom">
                                                 <picture>
-                                                    <source type="image/webp"
+                                                    <source type="image/jpg"
                                                         srcset="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/lustica.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-4"
                                                         src="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/lustica.jpg"
@@ -55,14 +55,14 @@ get_header('4');
                                     </a>
                                 </div>
 
-                                <!-- KARMA -->
+                                <!-- ACN -->
                                 <div class="column q-1-2">
-                                    <a href="#" data-scroll data-scroll-speed="-2"
+                                    <a href="<?php echo site_url(); ?>/work/amazing-care-network/" data-scroll data-scroll-speed="-2"
                                         data-color="#FFD5C2" data-bg="#2C1F19" data-hover="View" data-col="#B98C76">
                                         <div class="half_image image_zoom_wrapper">
                                             <div class="image_zoom">
                                                 <picture>
-                                                    <source type="image/webp"
+                                                    <source type="image/jpg"
                                                         srcset="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/karma.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-2"
                                                         src="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/karma.jpg"
@@ -91,12 +91,12 @@ get_header('4');
                             <div class="columns">
                                 <!--  Sterling FMLA -->
                                 <div class="column q-1-2">
-                                    <a href="#" data-color="#FFDBAF" data-bg="#2E2A24"
+                                    <a href="<?php echo site_url(); ?>/work/-fmla-sterling-administration/" data-color="#FFDBAF" data-bg="#2E2A24"
                                         data-hover="View" data-col="#B0987B">
                                         <div class="half_image image_zoom_wrapper">
                                             <div class="image_zoom">
                                                 <picture>
-                                                    <source type="image/webp"
+                                                    <source type="image/jpg"
                                                         srcset="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/raia.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-4"
                                                         src="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/raia.jpg"
@@ -118,14 +118,15 @@ get_header('4');
                                     </a>
                                 </div>
 
-                                <!-- Sterling Foundation-->
+                                
+                                <!--  Shri Hari Development -->
                                 <div class="column q-1-2">
-                                    <a href="works/vold.html" data-scroll data-scroll-speed="-2"
+                                    <a href="<?php echo site_url(); ?>/work/shri-hari-dev/" data-scroll data-scroll-speed="-2"
                                         data-color="#CAD9E9" data-bg="#232A33" data-hover="View" data-col="#7C95B7">
                                         <div class="half_image image_zoom_wrapper">
                                             <div class="image_zoom">
                                                 <picture>
-                                                    <source type="image/webp"
+                                                    <source type="image/jpg"
                                                         srcset="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/vold.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-2"
                                                         src="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/vold.jpg"
@@ -134,49 +135,20 @@ get_header('4');
                                             </div>
                                         </div>
                                         <div class="work_caption">
-                                            <span class="client"> Sterling Foundation</span>
-                                            <span class="line_sep"></span>
-                                        </div>
-                                        <h4>Next generation Web Management System.</h4>
-                                        <p class="desc">                                            
-                                            <span>Website</span>                                        
-                                        </p>
-                                    </a>
-                                </div>
-
-                            </div>
-
-                            <div class="columns">
-
-                                <!--  Shri Hari Development -->
-                                <div class="column q-1-2">
-                                    <a href="works/arc.html" data-color="#EDDCCE" data-bg="#403838"
-                                        data-hover="View" data-col="#968282">
-                                        <div class="half_image image_zoom_wrapper">
-                                            <div class="video-wrapper">
-                                                <video muted="muted" autoplay playsinline loop="loop"
-                                                    data-poster="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/arc.jpg">
-                                                    <source src="https://fleava.com/assets/img/home/arc_s.mp4" type="video/mp4">
-                                                </video>
-                                            </div>
-                                        </div>
-                                        <div class="work_caption">
-                                            <span class="client"> Shri Hari Development</span>
+                                            <span class="client">Shri Hari Development</span>
                                             <span class="line_sep"></span>
                                         </div>
                                         <h4>We give construction a new meaning from conceptualizing to designing to execution.</h4>
-                                        <p class="desc">
+                                        <p class="desc">                                            
                                             <span>Strategy</span>
                                             <span>UI/UX Design</span>
                                             <span>Website</span>
-                                            <span>Digital Marketing</span>
+                                            <span>Digital Marketing</span>                                  
                                         </p>
                                     </a>
                                 </div>
 
                             </div>
-
-                           
                         </div>
                     </section>
 
