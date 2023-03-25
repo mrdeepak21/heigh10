@@ -22,7 +22,7 @@ the_post();
     <section>
         <?php the_content(); ?>
     </section>
-    <section class="l-section cc--dark wf-section parallax p-par">
+    <section class="l-section cc--dark wf-section home-hero">
         <div class="c-grid-wrapper">
             <div class="w-layout-grid c-your-brand__grid">
                 <!-- <div class="c-your-brand__graphic">
@@ -52,88 +52,6 @@ the_post();
             </div>
         </div>
     </section>
-    <!-- <section class="l-section no-pd wf-section">
-        <div class="w-layout-grid c-sticky-grid">
-            <div id="w-node-_1ac42f95-5d16-7462-9489-4a5187620921-511400ed" class="c-grid-block__p5">
-                <div class="c-sticky__track">
-                    <div class="c-sticky__blk">
-                        <div data-w-id="6b0044af-cfeb-c4a5-c4cd-13a67fc3d0e3"
-                            style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
-                            class="c-ttl-blk">
-                            <h6 class="font_caps" data-splitting>/ Featured Work</h6>
-                            <h2 class="c-headline cc-home" style="font-size: 3.998em">We create a hand-crafted digital
-                                <span class="c-headline gradient-pink cc-home">experience unique to each project.</span>
-                            </h2>
-                        </div>
-                        <div style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
-                            class="c-txt-blk--flex">
-                            <p class="c-txt-blk__txt is--copy">We foster growth for your business by making your brand
-                                more compelling online. By combining data insights, creativity, and technology, we
-                                transform your customer experiences and enable new growth. We are always here to deliver
-                                the results you need.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="w-node-_750603c0-0a5e-c9a9-af64-5244a9dcd352-511400ed" class="c-border-block__left">
-                <div class="c-grid-block__p5 cc--centred">
-                    <div class="flex-sec-col">
-                        <div class="w-layout-grid c-stats__grid">
-                            <div class="c-stats__card-item mg-top">
-                                <div class="c-stats__header">
-                                    <h2 class="heading-2 stats-numbers">Sterling Administration</h2>
-                                    <p class="faded-text">Website, Social Media Management, Marketing Materials, and
-                                        Email Marketing </p>
-                                </div>
-                                <div class="c-stats__btm" style="min-height: auto;width: 80px;"><img
-                                        src="http://sterlingwordpressfmladev.s3.us-west-1.amazonaws.com/wp-content/uploads/2022/01/25000521/logo-s.png"
-                                        loading="lazy" alt="The ACE Project charity logo in white"
-                                        class="c-stats__card-logo"></div>
-                            </div>
-                            <div class="c-stats__card-item">
-                                <div class="c-stats__header">
-                                    <h2 class="heading-2 stats-numbers">
-                                        Amazing Care Network
-                                    </h2>
-                                    <p class="faded-text"> Website </p>
-                                </div>
-                                <div class="c-stats__btm"><img
-                                        src="https://acnwpproduction.s3-us-west-1.amazonaws.com/wp-content/uploads/2020/01/amazingcare.png"
-                                        loading="lazy" alt="" class="c-stats__card-logo"></div>
-                            </div>
-                            <div class="c-stats__card-item mg-top">
-                                <div class="c-stats__header">
-                                    <h2 class="heading-2 stats-numbers">
-                                        FMLA</h2>
-                                    <p class="faded-text"> Website, Social Media Management, and Marketing Materials
-                                    </p>
-                                </div>
-                                <div class="c-stats__btm"><img
-                                        src="https://sterlingwordpressfmlacdn.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/12/11180232/sterling-logo-black-1.png"
-                                        loading="lazy" alt="" class="c-stats__card-logo is--f4h"></div>
-                            </div>
-                            <div class="c-stats__card-item">
-                                <div class="c-stats__header">
-                                    <h2 class="heading-2 stats-numbers">
-                                        Shri Hari Dev
-                                    </h2>
-                                    <p class="faded-text">Website, Marketing Materials, and Branding
-                                    </p>
-                                </div>
-                                <div class="c-stats__btm"><img
-                                        src="<?php bloginfo('template_directory'); ?>/assets/images/shd.jpg"
-                                        loading="lazy" alt="" class="c-stats__card-logo"></div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-        </div>
-    </section> -->
 
     <!-- Baubfire -->
 

@@ -384,7 +384,7 @@ footer .col {
 }
 
 .c-footer::before,
-.l-hero::before {
+.home-heroq::before {
     background: linear-gradient(180deg, #000 0%, #282828 100%);
     position: absolute;
     content: "";
@@ -593,7 +593,9 @@ footer .col {
     width: 100%;
     position: relative;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    background: url(http://44.234.56.37/wp-content/uploads/2023/03/contact-us.webp) no-repeat fixed center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     color: #fff;
 }
@@ -845,7 +847,9 @@ footer .col {
     filter: brightness(0);
 } */
 
-
+.bg_img{
+    filter: brightness(.3);
+}
 
 /* Baunfire */
 
@@ -933,6 +937,7 @@ footer .col {
 }
 
 
-.bg_img{
-    filter: brightness(.3);
-}
+
+
+.image-container.show{transform:translateZ(0)}.image-container.show .image-wrapper{opacity:1;transform:scale(1)}.image-container.show .image-wrapper:after{transform:scaleY(0)}@media screen and (min-width:769px){.image-container.hover .image-wrapper,.image-container:hover:not(.no-hover) .image-wrapper{transform:scale(.95) rotateY(-9deg)}.image-container.hover .image-wrapper>div:not(.dummy),.image-container:hover:not(.no-hover) .image-wrapper>div:not(.dummy){transform:scale(1.1)}}.hidden-onload{opacity:0}.hidden-onload.animate-load{transition:opacity .85s var(--primary-ease)}.hidden-onload.visible{opacity:1}.hidden-onload.swipe-to-appear{opacity:1;-webkit-clip-path:inset(0 100% 0 0);clip-path:inset(0 100% 0 0);transition:-webkit-clip-path .85s var(--custom-ease-4);transition:clip-path .85s var(--custom-ease-4);transition:clip-path .85s var(--custom-ease-4),-webkit-clip-path .85s var(--custom-ease-4)}.hidden-onload.swipe-to-appear.visible{-webkit-clip-path:inset(-100% -100% -100% -100%);clip-path:inset(-100% -100% -100% -100%)}.will-change-color{transition:color .85s var(--primary-ease)}.scroll-indicator{position:fixed;top:0;right:0;background-color:var(--color-primary-black-1);width:4px;height:100vh;transform-origin:left top;z-index:19}.scroll-indicator.bg-is-black,.scroll-indicator.bg-is-red{background-color:var(--color-primary-white)}.scroll-label{position:fixed;right:52px;bottom:78px;text-transform:uppercase;display:flex;align-items:center;transform:rotate(90deg) translate3d(20px,0,0);transform-origin:right top;transition:all .45s var(--primary-ease);z-index:5}.scroll-label .line{display:inline-block;width:51px;height:1px;background-color:#1a1918;margin-right:12px;transform:scaleX(0);transition:background-color .45s var(--primary-ease)}
+/* ----------------------------------------- */

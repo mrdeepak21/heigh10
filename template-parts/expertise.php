@@ -125,9 +125,9 @@ get_header('4');
                                         <div class="image_zoom">
                                             <picture>
                                                 <source type="image/jpg"
-                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/expertise-user-interface-main.jpg">
+                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/expertise-user-interface.jpg">
                                                 <img class="banner_img" data-scroll data-scroll-speed="-4"
-                                                    src="http://44.234.56.37/wp-content/uploads/2023/03/expertise-user-interface-main.jpg"
+                                                    src="http://44.234.56.37/wp-content/uploads/2023/03/expertise-user-interface.jpg"
                                                     alt="">
                                             </picture>
                                         </div>
