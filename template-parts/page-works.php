@@ -10,16 +10,30 @@ get_header('4');
         <div data-scroll-container>
             <main id="main">
                 <div class="header_animate" data-scroll-section>
-                    <section class="section grey section__header work_images large-pb bg__change img_brightness">
-                        <div class="q-container container-inner pb">
+                    <section class="section section__header work_images large-pb bg__change img_brightness">
+                        <div class="q-container container-inner large-pb">
                             <div class="columns short_container">
-                                <div class="column menu_fade">
-                                <h6 class="font_caps" data-splitting>/ Our Works</h6>
-                                    <h1 class="lead" data-splitting>We do amazing<br>things with amazing<br>People.
+                                <div class="column menu_fade no-p" data-w-id="6b0044af-cfeb-c4a5-c4cd-13a67fc3d0e3"
+                                style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0;">
+                                <h6 class="font_caps">/ Our Work</h6>
+                                    <h1 class="lead">Our work drives <span class="long-gradient">adoption, engagement, and conversions</span>
                                     </h1>
                                 </div>
                             </div>
 
+                        </div>
+                        
+                        <div class="offset_banner" style="background-color:#000">
+                            <div class="image_reveal">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-banner.jpg">
+                                    <img data-scroll data-scroll-speed="-3"
+                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-banner.jpg"
+                                        alt="">
+                                </picture>
+                                <div class="cover"></div>
+                            </div>
                         </div>
 
                         <div class="q-container container-inner menu_fade">
@@ -34,9 +48,9 @@ get_header('4');
                                             <div class="image_zoom">
                                                 <picture>
                                                     <source type="image/jpg"
-                                                        srcset="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/lustica.jpg">
+                                                        srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-4"
-                                                        src="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/lustica.jpg"
+                                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg"
                                                         alt="">
                                                 </picture>
                                             </div>
@@ -45,12 +59,9 @@ get_header('4');
                                             <span class="client">Sterling Administration</span>
                                             <span class="line_sep"></span>
                                         </div>
-                                        <h4>A one-stop shop for smart businesses</h4>
+                                        <h4>A reimagined marketing strategy and digital presence for the leader in healthcare</h4>
                                         <p class="desc">
-                                            <span>Strategy</span>
-                                            <span>UI/UX Design</span>
-                                            <span>Website</span>
-                                            <span>Digital Marketing</span>
+                                            Website, Social Media Management, Marketing Materials, Email Marketing and Ongoing Support.
                                         </p>
                                     </a>
                                 </div>
@@ -63,9 +74,9 @@ get_header('4');
                                             <div class="image_zoom">
                                                 <picture>
                                                     <source type="image/jpg"
-                                                        srcset="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/karma.jpg">
+                                                        srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-2"
-                                                        src="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/karma.jpg"
+                                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg"
                                                         alt="">
                                                 </picture>
                                             </div>
@@ -74,12 +85,9 @@ get_header('4');
                                             <span class="client"> Amazing Care Network</span>
                                             <span class="line_sep"></span>
                                         </div>
-                                        <h4>Providing support through the latter stages of life</h4>
+                                        <h4>A community website designed with a purpose</h4>
                                         <p class="desc">
-                                        <span>Strategy</span>
-                                            <span>UI/UX Design</span>
-                                            <span>Website</span>
-                                            <span>Digital Marketing</span>
+                                            Website, Email Marketing and Ongoing Support.
                                         </p>
                                     </a>
                                 </div>
@@ -91,15 +99,15 @@ get_header('4');
                             <div class="columns">
                                 <!--  Sterling FMLA -->
                                 <div class="column q-1-2">
-                                    <a href="<?php echo site_url(); ?>/work/-fmla-sterling-administration/" data-color="#FFDBAF" data-bg="#2E2A24"
+                                    <a href="<?php echo site_url(); ?>/work/fmla-sterling-administration/" data-color="#FFDBAF" data-bg="#2E2A24"
                                         data-hover="View" data-col="#B0987B">
                                         <div class="half_image image_zoom_wrapper">
                                             <div class="image_zoom">
                                                 <picture>
                                                     <source type="image/jpg"
-                                                        srcset="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/raia.jpg">
+                                                        srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-4"
-                                                        src="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/raia.jpg"
+                                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg"
                                                         alt="">
                                                 </picture>
                                             </div>
@@ -108,12 +116,10 @@ get_header('4');
                                             <span class="client"> Sterling FMLA</span>
                                             <span class="line_sep"></span>
                                         </div>
-                                        <h4>A new name for managing the complexities of leave administration</h4>
+                                        <h4>A modern digital presence for launching Sterling's FMLA service
+                                        </h4>
                                         <p class="desc">
-                                            <span>Strategy</span>
-                                            <span>UI/UX Design</span>
-                                            <span>Website</span>
-                                            <span>Media Production</span>
+                                            Website, Social Media Management, Marketing Materials and Ongoing Support.
                                         </p>
                                     </a>
                                 </div>
@@ -127,9 +133,9 @@ get_header('4');
                                             <div class="image_zoom">
                                                 <picture>
                                                     <source type="image/jpg"
-                                                        srcset="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/vold.jpg">
+                                                        srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-2"
-                                                        src="<?php bloginfo('template_directory'); ?>/assets/img/works/thumbs/vold.jpg"
+                                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg"
                                                         alt="">
                                                 </picture>
                                             </div>
@@ -138,12 +144,10 @@ get_header('4');
                                             <span class="client">Shri Hari Development</span>
                                             <span class="line_sep"></span>
                                         </div>
-                                        <h4>We give construction a new meaning from conceptualizing to designing to execution.</h4>
+                                        <h4>Luxury branding for a modern construction company
+                                        </h4>
                                         <p class="desc">                                            
-                                            <span>Strategy</span>
-                                            <span>UI/UX Design</span>
-                                            <span>Website</span>
-                                            <span>Digital Marketing</span>                                  
+                                            Website, Marketing Materials, and Branding.                                
                                         </p>
                                     </a>
                                 </div>

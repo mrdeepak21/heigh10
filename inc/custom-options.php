@@ -88,7 +88,7 @@ add_action('customize_register', function ($wp_customize)
     // $arr = ['facebook','instagram','linkedin','twitter'];
 
   // Save settings to database
-  $wp_customize->add_setting('social_links', array(
+  $wp_customize->add_setting('social_links_ln', array(
     'default' => '',
     'transport' => 'refresh'
 ));
@@ -100,7 +100,26 @@ $wp_customize->add_control(
         array(
             'label'          => __('linkedin', 'linkedin' ),
             'section'        => 'custom_option',
-            'settings'       => 'social_links',
+            'settings'       => 'social_links_ln',
+            'type'           => 'url'
+        )
+    )
+);
+
+  // Save settings to database
+  $wp_customize->add_setting('social_links_ig', array(
+    'default' => '',
+    'transport' => 'refresh'
+));
+
+$wp_customize->add_control(
+    new WP_Customize_Control(
+        $wp_customize,
+        'instagram',
+        array(
+            'label'          => __('instagram', 'instagram' ),
+            'section'        => 'custom_option',
+            'settings'       => 'social_links_ig',
             'type'           => 'url'
         )
     )

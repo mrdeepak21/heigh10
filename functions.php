@@ -163,11 +163,11 @@ add_filter( 'nav_menu_link_attributes', 'add_class_to_href', 10, 2 );
 
     /*ICON logo*/
 add_action('customize_register', function ($wp_customize){
-    $wp_customize->add_setting('icon-logo');
-$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'icon-logo', array(
+    $wp_customize->add_setting('icon_logo');
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'icon_logo', array(
     'label'    => __('Icon Logo', 'store-front'),
     'section'  => 'title_tagline',
-    'settings' => 'icon-logo',
+    'settings' => 'icon_logo',
     'priority'       => 4,
 )));
 

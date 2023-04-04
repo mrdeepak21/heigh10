@@ -41,10 +41,12 @@
         <?php wp_nav_menu( array( 'theme_location' => 'footer-menu-2', 'menu_class'=> 'nav_menu' ) ); ?>
       </div>
       <div class="col">
-        <div class="footer">
-          <a href="<?php echo get_theme_mod('social_links'); ?>" target="_blank" class="h5"><b>ln</b></a><br>
-          <br>
-
+      <div class="footer">           
+            <a href="<?php echo get_theme_mod('social_links_ln'); ?>"
+            target="_blank" class="h5"><b>In</b></a>&nbsp;&nbsp;
+             <a href="<?php echo get_theme_mod('social_links_ig'); ?>"
+            target="_blank" class="h5"><b>Ig</b></a><br>
+             <br>           
         </div>
 
       </div>
@@ -66,9 +68,9 @@
 </div>
 </div>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.js" type="text/javascript"></script>
-<script src="<?php bloginfo('template_directory'); ?>/assets/js/main.js" type="text/javascript"></script>
-<script src="<?php bloginfo('template_directory'); ?>/assets/js/custom.js" type="text/javascript"></script>
-<script defer src="<?php bloginfo('template_directory'); ?>/assets/js/scripts.js"></script>
+<script  src="<?php bloginfo('template_directory'); ?>/assets/js/main.js" type="text/javascript"></script>
+<script  src="<?php bloginfo('template_directory'); ?>/assets/js/custom.js" type="text/javascript"></script>
+<script  src="<?php bloginfo('template_directory'); ?>/assets/js/scripts.js"></script>
 <?php wp_footer(); ?>
 </body>
 

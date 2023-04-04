@@ -19,7 +19,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
 		class="c-page-blk--out"></div>
 	<div class="c-transition-blk-out--menu"></div>
@@ -48,14 +47,10 @@
 		</div> -->
 	<!--End Back to top -->
 
-<div style="position: relative;">
-	<a href="<?php echo site_url(); ?>" aria-current="page" class="c-brand w-inline-block w--current">
-		<img src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
-			width="65" alt="Heigh10" class="c-brand__image"><img
-			src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
-			alt="letter o" class="c-brand--image__o"><img
-			src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
-			alt="letter i " class="c-brand--image__i"></a>
+<div style="position: relative" >
+<a href="<?php echo site_url(); ?>" aria-current="page" class="c-brand w-inline-block w--current">
+    <img src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"  width="65" alt="Heigh10" class="c-brand__image">
+      </a>
 	<div class="nav-button">
 		<div class="nav-button__wrapper">
 			<div data-is-ix2-target="1" class="lottie-animation" data-w-id="72cac717-388d-6301-32d8-20a95781120e"
@@ -95,8 +90,10 @@
 						</a>
 					</div>
 					<div class="col menu_bottom" style="align-items: start">
-						<a href="<?php echo get_theme_mod('social_links'); ?>" target="_blank"
-							style="font-size: 14px;color:#000"><b>ln</b></a>
+					<a href="<?php echo get_theme_mod('social_links_ln'); ?>" class="social_links" target="_blank"
+              style="font-size: 14px;color:#000;margin-top:10px" ><b>ln</b></a> &nbsp;
+              <a href="<?php echo get_theme_mod('social_links_ig'); ?>" class="social_links" target="_blank"
+              style="font-size: 14px;color:#000;margin-top:10px"><b>Ig</b></a>
 						<?php wp_nav_menu( array( 'theme_location' => 'privacy-policy',  'menu_class'=> 'nav_menu privacy_menu', 'container'=> false ) ); ?>
 					</div>
 				</div>
@@ -104,7 +101,6 @@
 			<div class="menu__background"></div>
 		</div>
 	</nav>
-
 	<div id="load_overlay" class="load_overlay"></div>
 
 	<div id="dynamicLoad" class="dynamic_load">
