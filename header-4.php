@@ -28,16 +28,13 @@
 			style="-webkit-transform:translate3d(0, 0VH, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0VH, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0VH, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0VH, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);display:flex"
 			class="c-loading">
 			<div class="div-block-12"><img
-					src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
-					style="-webkit-transform:translate3d(0, 18PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 18PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 18PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 18PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-					data-w-id="e02aa7af-471a-dfa7-ff0d-55cb9cd518f5" alt="letter i " class="c-logo-i"><img
-					src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
-					style="-webkit-transform:translate3d(0, 10PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-					data-w-id="1dde0b76-7fd0-63e7-5fef-b58d98613c70" alt="letter o" class="c-logo-o"><img
-					src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"
-					style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(240DEG) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(240DEG) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(240DEG) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(240DEG) skew(0, 0);opacity:0"
-					data-w-id="aa9e721d-d5dc-8072-fccf-f6b39604d90c" alt="Heigh10" class="c-logo-cir"></div>
+					src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>" alt="Heigh10" class="c-logo-i"></div>
 		</div>
+		<div class="flexbox">
+			<div class="dot-loader"></div>
+			<div class="dot-loader dot-loader--2"></div>
+			<div class="dot-loader dot-loader--3"></div>
+		  </div>
 	</div>
 	<!-- Back to top -->
 	<!-- <div class="progress-wrap" style="display: none;">
@@ -49,9 +46,10 @@
 
 <div style="position: relative" >
 <a href="<?php echo site_url(); ?>" aria-current="page" class="c-brand w-inline-block w--current">
-    <img src="<?php echo esc_url( wp_get_attachment_image_url( get_theme_mod( 'custom_logo' ), 'full' ) ); ?>"  width="65" alt="Heigh10" class="c-brand__image">
+    <img src="<?php echo esc_url( get_theme_mod( 'icon_logo' ) ); ?>"  width="65" alt="Heigh10" class="c-brand__icon" id="h10_icon">
+    <img src="<?php echo esc_url( get_theme_mod( 'custom_logo_text' ) ); ?>"  width="65" alt="Heigh10" class="c-brand__image" id="h10_text">
       </a>
-	<div class="nav-button">
+	<div class="nav-button" id="hamburger">
 		<div class="nav-button__wrapper">
 			<div data-is-ix2-target="1" class="lottie-animation" data-w-id="72cac717-388d-6301-32d8-20a95781120e"
 				data-animation-type="lottie"
@@ -89,11 +87,12 @@
 								loading="lazy" alt="" class="c-button--arrow">
 						</a>
 					</div>
-					<div class="col menu_bottom" style="align-items: start">
+					<div class="col menu_bottom">
+						<div class="social">
 					<a href="<?php echo get_theme_mod('social_links_ln'); ?>" class="social_links" target="_blank"
-              style="font-size: 14px;color:#000;margin-top:10px" ><b>ln</b></a> &nbsp;
-              <a href="<?php echo get_theme_mod('social_links_ig'); ?>" class="social_links" target="_blank"
-              style="font-size: 14px;color:#000;margin-top:10px"><b>Ig</b></a>
+              style="" ><img src="https://heigh10.com/wp-content/uploads/2023/04/heigh10-linkedin-2.svg" alt="Heigh10 LinkedIn"></a> &nbsp;
+              <a href="<?php echo get_theme_mod('social_links_ig'); ?>" class="social_links" target="_blank"><img src="https://heigh10.com/wp-content/uploads/2023/04/heigh10-instagram.svg" alt="Heigh10 IG"></a>
+			  </div>
 						<?php wp_nav_menu( array( 'theme_location' => 'privacy-policy',  'menu_class'=> 'nav_menu privacy_menu', 'container'=> false ) ); ?>
 					</div>
 				</div>

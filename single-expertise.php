@@ -53,18 +53,29 @@ if($query){
                 data-scroll-offset="-100%,-100%" style="align-items: baseline;">
             <div class="column q-1-3">
                                     <div class="work_info">
-                                        <p class="">
+                                        <ul class="exp">
                                            <?php  foreach ($our_fields as $fields) {
-                                                echo "<span>$fields</span>";
+                                                echo "<li>$fields</li>";
                                             } ?>
                                             
-                                        </p>
+                                        </ul>
                                     </div>
 
                                 </div>
                 <div class="column q-2-3">
-                    <p class="lead" data-splitting><?php echo the_content(); ?><br><br></p>
-                    <a href="mailto:<?php echo get_theme_mod('get_in_touch'); ?>" class="magnet">Get in touch <span class="magnet_circle"> <span class="magnet_arrow">&#8594;</span></span></a>
+                    <p class="lead"><?php echo the_content(); ?></p>
+                   
+
+                    <a data-w-id="96fbbb74-ce84-3c79-6e1c-84ff9df337f7"
+                                                style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
+                                                href="mailto:<?php echo get_theme_mod('get_in_touch'); ?>" 
+                                                class="c-button outlined white mrg-tp w-inline-block">
+                                                <h3 class="c-button__txt">Get in Touch</h3><img
+                                                    src="<?php bloginfo('template_directory'); ?>/assets/images/icon-enclosed-arrow.svg"
+                                                    loading="lazy" alt="Get in Touch"
+                                                    class="c-button--arrow">
+                                            </a>
+
                 </div>
             </div>
         </div>

@@ -17,13 +17,13 @@ get_header('4');
                 </div>
                 <section class="section overflow_hide" data-scroll-section="">
                     <div class="q-container container-inner menu_fade reveal scrollanim_intro">
-                        <div class="columns short_container">
+                        <div class="columns short_container" style="padding:0">
                             <div class="column">
                                 <div data-scroll="" data-scroll-speed="-8.5" data-scroll-offset="-100%,-100%">
                                     <div class="cc-short">
                                         <div class="c-txt-wrapper">
                                             <h6 class="font_caps">/ Introduction</h6>
-                                            <h2 class="" style="font-size:3.5vw">We produce world-class digital
+                                            <h2 style="font-size:4.5vw">We produce world-class digital
                                                 experiences for industry-leading <span class="long-gradient">brands and
                                                     small businesses in the heart of Silicon Valley.</span></h2>
                                         </div>
@@ -55,14 +55,13 @@ get_header('4');
                                 <div class="works-head">
                                     <div class="works-head-left">
                                         <h6 class="font_caps">/ Featured Work</h6>
-                                        <h2 class="c-headline cc-home" style="font-size: 3.998em">We create hand-crafted
-                                            <span class="c-headline gradient-pink cc-home">digital experiences unique to
-                                                each project.</span>
+                                        <h2 class="c-headline cc-home">We create industry-specific
+                                            <span class="c-headline gradient-pink cc-home"> digital experiences unique to each project</span>
                                         </h2>
                                     </div>
                                 </div>
                             </div>
-                            <div class="works-list" style="margin-bottom: 0;"><a class="thumbnail-container undefined"
+                            <div class="works-list"><a class="thumbnail-container undefined"
                                     href="<?php echo site_url(); ?>/work/sterling-administration/">
                                     <div>
                                         <div class="image-container show">
@@ -73,44 +72,44 @@ get_header('4');
                                                         style="width: 100%; padding-bottom: 133.571%;"></div>
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=140&amp;h=187&amp;q=90&amp;fm=webp 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=280&amp;h=374&amp;q=90&amp;fm=webp 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=560&amp;h=748&amp;q=90&amp;fm=webp 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=840&amp;h=1122&amp;q=90&amp;fm=webp 840w"
+                                                            srcset="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=140&amp;h=187&amp;q=90&amp;fm=webp 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=280&amp;h=374&amp;q=90&amp;fm=webp 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=560&amp;h=748&amp;q=90&amp;fm=webp 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=840&amp;h=1122&amp;q=90&amp;fm=webp 840w"
                                                             sizes="(max-width: 560px) 100vw, 560px">
                                                         <source
-                                                            srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=140&amp;h=187&amp;q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=280&amp;h=374&amp;q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=560&amp;h=748&amp;q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                            srcset="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=840&amp;h=1122&amp;q=90 840w"
                                                             sizes="(max-width: 560px) 100vw, 560px"><img
                                                             sizes="(max-width: 560px) 100vw, 560px"
-                                                            srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=140&amp;h=187&amp;q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=280&amp;h=374&amp;q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=560&amp;h=748&amp;q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
-                                                            src="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=560&amp;q=90"
+                                                            srcset="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                            src="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=560&amp;q=90"
                                                             alt="" loading="lazy"
                                                             style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
                                                     </picture><noscript>
                                                         <picture>
                                                             <source type='image/webp'
-                                                                srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=140&h=187&q=90&fm=webp 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=280&h=374&q=90&fm=webp 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=560&h=748&q=90&fm=webp 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=840&h=1122&q=90&fm=webp 840w"
+                                                                srcset="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=140&h=187&q=90&fm=webp 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=280&h=374&q=90&fm=webp 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=560&h=748&q=90&fm=webp 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=840&h=1122&q=90&fm=webp 840w"
                                                                 sizes="(max-width: 560px) 100vw, 560px" />
-                                                            <source srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=140&h=187&q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=280&h=374&q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=560&h=748&q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=840&h=1122&q=90 840w"
+                                                            <source srcset="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=840&h=1122&q=90 840w"
                                                                 sizes="(max-width: 560px) 100vw, 560px" /><img
                                                                 loading="lazy" sizes="(max-width: 560px) 100vw, 560px"
-                                                                srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=140&h=187&q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=280&h=374&q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=560&h=748&q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=840&h=1122&q=90 840w"
-                                                                src="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg?w=560&q=90"
+                                                                srcset="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=840&h=1122&q=90 840w"
+                                                                src="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg?w=560&q=90"
                                                                 alt=""
                                                                 style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
                                                         </picture>
@@ -200,7 +199,7 @@ get_header('4');
                                     </div>
                                 </a>
                                 <div>
-                                    <div style="transform: translate3d(0px, -200px, 0px);"><a
+                                    <div><a
                                             class="thumbnail-container even"
                                             href="<?php echo site_url(); ?>/work/amazing-care-network/">
                                             <div>
@@ -213,41 +212,41 @@ get_header('4');
                                                             </div>
                                                             <picture>
                                                                 <source type="image/webp"
-                                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&amp;h=187&amp;q=90&amp;fm=webp 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&amp;h=374&amp;q=90&amp;fm=webp 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;h=748&amp;q=90&amp;fm=webp 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&amp;h=1122&amp;q=90&amp;fm=webp 840w"
+                                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&amp;h=187&amp;q=90&amp;fm=webp 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&amp;h=374&amp;q=90&amp;fm=webp 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;h=748&amp;q=90&amp;fm=webp 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&amp;h=1122&amp;q=90&amp;fm=webp 840w"
                                                                     sizes="(max-width: 560px) 100vw, 560px">
-                                                                <source srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&amp;h=187&amp;q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&amp;h=374&amp;q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;h=748&amp;q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                                <source srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
                                                                     sizes="(max-width: 560px) 100vw, 560px"><img
-                                                                    sizes="(max-width: 560px) 100vw, 560px" srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&amp;h=187&amp;q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&amp;h=374&amp;q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;h=748&amp;q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
-                                                                    src="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;q=90"
+                                                                    sizes="(max-width: 560px) 100vw, 560px" srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                                    src="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;q=90"
                                                                     alt="" loading="lazy"
                                                                     style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
                                                             </picture><noscript>
                                                                 <picture>
-                                                                    <source type='image/webp' srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&h=187&q=90&fm=webp 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&h=374&q=90&fm=webp 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&h=748&q=90&fm=webp 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&h=1122&q=90&fm=webp 840w"
+                                                                    <source type='image/webp' srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&h=187&q=90&fm=webp 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&h=374&q=90&fm=webp 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&h=748&q=90&fm=webp 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&h=1122&q=90&fm=webp 840w"
                                                                         sizes="(max-width: 560px) 100vw, 560px" />
-                                                                    <source srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&h=187&q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&h=374&q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&h=748&q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&h=1122&q=90 840w"
+                                                                    <source srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&h=1122&q=90 840w"
                                                                         sizes="(max-width: 560px) 100vw, 560px" /><img
                                                                         loading="lazy"
-                                                                        sizes="(max-width: 560px) 100vw, 560px" srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&h=187&q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&h=374&q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&h=748&q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&h=1122&q=90 840w"
-                                                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&q=90"
+                                                                        sizes="(max-width: 560px) 100vw, 560px" srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&h=1122&q=90 840w"
+                                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&q=90"
                                                                         alt=""
                                                                         style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
                                                                 </picture>
@@ -327,7 +326,7 @@ get_header('4');
                                             </div>
                                         </a></div>
                                 </div><a class="thumbnail-container undefined"
-                                    href="<?php echo site_url(); ?>/work/fmla-sterling-administration/">
+                                    href="<?php echo site_url(); ?>/work/fmla/">
                                     <div>
                                         <div class="image-container show">
                                             <div class="image-wrapper">
@@ -337,41 +336,41 @@ get_header('4');
                                                         style="width: 100%; padding-bottom: 133.571%;"></div>
                                                     <picture>
                                                         <source type="image/webp"
-                                                            srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&amp;h=187&amp;q=90&amp;fm=webp 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&amp;h=374&amp;q=90&amp;fm=webp 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;h=748&amp;q=90&amp;fm=webp 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&amp;h=1122&amp;q=90&amp;fm=webp 840w"
+                                                            srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&amp;h=187&amp;q=90&amp;fm=webp 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&amp;h=374&amp;q=90&amp;fm=webp 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;h=748&amp;q=90&amp;fm=webp 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&amp;h=1122&amp;q=90&amp;fm=webp 840w"
                                                             sizes="(max-width: 560px) 100vw, 560px">
-                                                        <source srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&amp;h=187&amp;q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&amp;h=374&amp;q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;h=748&amp;q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                        <source srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&amp;h=1122&amp;q=90 840w"
                                                             sizes="(max-width: 560px) 100vw, 560px"><img
-                                                            sizes="(max-width: 560px) 100vw, 560px" srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&amp;h=187&amp;q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&amp;h=374&amp;q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;h=748&amp;q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&amp;h=1122&amp;q=90 840w"
-                                                            src="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;q=90"
+                                                            sizes="(max-width: 560px) 100vw, 560px" srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                            src="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;q=90"
                                                             alt="" loading="lazy"
                                                             style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
                                                     </picture><noscript>
                                                         <picture>
-                                                            <source type='image/webp' srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&h=187&q=90&fm=webp 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&h=374&q=90&fm=webp 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&h=748&q=90&fm=webp 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&h=1122&q=90&fm=webp 840w"
+                                                            <source type='image/webp' srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&h=187&q=90&fm=webp 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&h=374&q=90&fm=webp 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&h=748&q=90&fm=webp 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&h=1122&q=90&fm=webp 840w"
                                                                 sizes="(max-width: 560px) 100vw, 560px" />
-                                                            <source srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&h=187&q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&h=374&q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&h=748&q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&h=1122&q=90 840w"
+                                                            <source srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&h=1122&q=90 840w"
                                                                 sizes="(max-width: 560px) 100vw, 560px" /><img
                                                                 loading="lazy" sizes="(max-width: 560px) 100vw, 560px"
-                                                                srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&h=187&q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&h=374&q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&h=748&q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&h=1122&q=90 840w"
-                                                                src="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&q=90"
+                                                                srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&h=1122&q=90 840w"
+                                                                src="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&q=90"
                                                                 alt=""
                                                                 style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
                                                         </picture>
@@ -406,7 +405,7 @@ get_header('4');
                                     </div>
                                 </a>
                                 <div>
-                                    <div style="transform: translate3d(0px, -51.9697px, 0px);"><a
+                                    <div><a
                                             class="thumbnail-container even"
                                             href="<?php echo site_url(); ?>/work/shri-hari-dev/">
                                             <div>
@@ -419,32 +418,32 @@ get_header('4');
                                                             </div>
                                                             <picture>
                                                                 <source
-                                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&amp;h=187&amp;q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&amp;h=374&amp;q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&amp;h=748&amp;q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
                                                                     sizes="(max-width: 560px) 100vw, 560px"><img
                                                                     sizes="(max-width: 560px) 100vw, 560px"
-                                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&amp;h=187&amp;q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&amp;h=374&amp;q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&amp;h=748&amp;q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
-                                                                    src="http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&amp;q=90"
+                                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                                    src="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&amp;q=90"
                                                                     alt="" loading="lazy"
                                                                     style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
                                                             </picture><noscript>
                                                                 <picture>
-                                                                    <source srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&h=187&q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&h=374&q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&h=748&q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&h=1122&q=90 840w"
+                                                                    <source srcset="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&h=1122&q=90 840w"
                                                                         sizes="(max-width: 560px) 100vw, 560px" /><img
                                                                         loading="lazy"
-                                                                        sizes="(max-width: 560px) 100vw, 560px" srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&h=187&q=90 140w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&h=374&q=90 280w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&h=748&q=90 560w,
-                    http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&h=1122&q=90 840w"
-                                                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&q=90"
+                                                                        sizes="(max-width: 560px) 100vw, 560px" srcset="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&h=1122&q=90 840w"
+                                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&q=90"
                                                                         alt=""
                                                                         style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
                                                                 </picture>

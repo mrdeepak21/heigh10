@@ -171,13 +171,13 @@ $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'icon_l
     'priority'       => 4,
 )));
 
-//     $wp_customize->add_setting('footer_logo');
-// $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'footer_logo', array(
-//     'label'    => __('Footer Logo', 'store-front'),
-//     'section'  => 'title_tagline',
-//     'settings' => 'footer_logo',
-//     'priority'       => 4,
-// )));
+    $wp_customize->add_setting('custom_logo_text');
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'custom_logo_text', array(
+    'label'    => __('Text Logo', 'store-front'),
+    'section'  => 'title_tagline',
+    'settings' => 'custom_logo_text',
+    'priority'       => 4,
+)));
  });
 
 }

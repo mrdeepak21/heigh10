@@ -315,6 +315,38 @@ function getCookie(name) {
 // });
 
 /*Home*/
-window.addEventListener("scroll",()=>{
-  document.querySelector('#ornament').style.transform = "rotate("+window.pageYOffset*0.1+"deg)";
+// window.addEventListener("scroll",()=>{
+//   document.querySelector('#ornament').style.transform = "rotate("+window.pageYOffset*0.1+"deg)";
+// });
+$(document).ready(()=>{
+  //Close Loader Quickly
+  $('.w_loader').slideUp('slow');
+  //Text Logo - home
+setTimeout(()=>{
+  $('#h10_text').fadeOut('slow');
+},5000);
+//text-logo : other
+$(window).scroll(()=>{
+  if($(window).scrollTop()>100){
+    $('#h10_text').fadeOut('slow');
+  } 
+   if ($(window).scrollTop()<100){
+    $('#h10_text').fadeIn('slow');
+  }
+});
+//Logo on menu
+let toggle = false;
+function toggleMenu(){
+   toggle;
+ toggle===true?toggle=false:toggle=true;
+}
+$('#hamburger').click(()=>{
+  toggleMenu();
+  if(toggle){
+    $('#h10_text').fadeIn('fast'); 
+  }
+    else{
+      $('#h10_text').fadeOut('slow'); 
+    }
+});
 });

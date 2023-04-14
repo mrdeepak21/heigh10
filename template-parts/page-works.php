@@ -27,9 +27,9 @@ get_header('4');
                             <div class="image_reveal">
                                 <picture>
                                     <source type="image/webp"
-                                        srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-banner.jpg">
+                                        srcset="https://heigh10.com/wp-content/uploads/2023/03/work-banner.jpg">
                                     <img data-scroll data-scroll-speed="-3"
-                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-banner.jpg"
+                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-banner.jpg"
                                         alt="">
                                 </picture>
                                 <div class="cover"></div>
@@ -48,9 +48,9 @@ get_header('4');
                                             <div class="image_zoom">
                                                 <picture>
                                                     <source type="image/jpg"
-                                                        srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg">
+                                                        srcset="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-4"
-                                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-sterling-main.jpg"
+                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg"
                                                         alt="">
                                                 </picture>
                                             </div>
@@ -74,9 +74,9 @@ get_header('4');
                                             <div class="image_zoom">
                                                 <picture>
                                                     <source type="image/jpg"
-                                                        srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg">
+                                                        srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-2"
-                                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-acn-main.jpg"
+                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg"
                                                         alt="">
                                                 </picture>
                                             </div>
@@ -99,15 +99,15 @@ get_header('4');
                             <div class="columns">
                                 <!--  Sterling FMLA -->
                                 <div class="column q-1-2">
-                                    <a href="<?php echo site_url(); ?>/work/fmla-sterling-administration/" data-color="#FFDBAF" data-bg="#2E2A24"
+                                    <a href="<?php echo site_url(); ?>/work/fmla/" data-color="#FFDBAF" data-bg="#2E2A24"
                                         data-hover="View" data-col="#B0987B">
                                         <div class="half_image image_zoom_wrapper">
                                             <div class="image_zoom">
                                                 <picture>
                                                     <source type="image/jpg"
-                                                        srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg">
+                                                        srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-4"
-                                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-fmla-main-1.jpg"
+                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg"
                                                         alt="">
                                                 </picture>
                                             </div>
@@ -133,9 +133,9 @@ get_header('4');
                                             <div class="image_zoom">
                                                 <picture>
                                                     <source type="image/jpg"
-                                                        srcset="http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg">
+                                                        srcset="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-2"
-                                                        src="http://44.234.56.37/wp-content/uploads/2023/03/work-shri-hari-main.jpg"
+                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg"
                                                         alt="">
                                                 </picture>
                                             </div>

@@ -28,9 +28,9 @@ get_header('4');
                             <div class="image_reveal">
                                 <picture>
                                     <source type="image/webp"
-                                        srcset="http://44.234.56.37/wp-content/uploads/2023/03/expertise-banner.jpg">
+                                        srcset="https://heigh10.com/wp-content/uploads/2023/03/expertise-banner.jpg">
                                     <img data-scroll data-scroll-speed="-3"
-                                        src="http://44.234.56.37/wp-content/uploads/2023/03/expertise-banner.jpg"
+                                        src="https://heigh10.com/wp-content/uploads/2023/03/expertise-banner.jpg"
                                         alt="">
                                 </picture>
                                 <div class="cover"></div>
@@ -72,9 +72,9 @@ get_header('4');
                                         <div class="image_zoom">
                                             <picture>
                                                 <source type="image/jpg"
-                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/expertise-digital-strategy-main.jpg">
+                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/expertise-digital-strategy-main.jpg">
                                                 <img class="banner_img" data-scroll data-scroll-speed="-4"
-                                                    src="http://44.234.56.37/wp-content/uploads/2023/03/expertise-digital-strategy-main.jpg"
+                                                    src="https://heigh10.com/wp-content/uploads/2023/03/expertise-digital-strategy-main.jpg"
                                                     alt="">
                                             </picture>
                                         </div>
@@ -106,9 +106,9 @@ get_header('4');
                                         <div class="image_zoom">
                                             <picture>
                                                 <source type="image/jpg"
-                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/expertise-branding-main.jpg">
+                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/expertise-branding-main.jpg">
                                                 <img class="banner_img" data-scroll data-scroll-speed="-2"
-                                                    src="http://44.234.56.37/wp-content/uploads/2023/03/expertise-branding-main.jpg"
+                                                    src="https://heigh10.com/wp-content/uploads/2023/03/expertise-branding-main.jpg"
                                                     alt="">
                                             </picture>
                                         </div>
@@ -143,9 +143,9 @@ get_header('4');
                                         <div class="image_zoom">
                                             <picture>
                                                 <source type="image/jpg"
-                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/expertise-user-interface.jpg">
+                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/expertise-user-interface.jpg">
                                                 <img class="banner_img" data-scroll data-scroll-speed="-4"
-                                                    src="http://44.234.56.37/wp-content/uploads/2023/03/expertise-user-interface.jpg"
+                                                    src="https://heigh10.com/wp-content/uploads/2023/03/expertise-user-interface.jpg"
                                                     alt="">
                                             </picture>
                                         </div>
@@ -177,9 +177,9 @@ get_header('4');
                                         <div class="image_zoom">
                                             <picture>
                                                 <source type="image/jpg"
-                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/expertise-development-main.jpg">
+                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/expertise-development-main.jpg">
                                                 <img class="banner_img" data-scroll data-scroll-speed="-2"
-                                                    src="http://44.234.56.37/wp-content/uploads/2023/03/expertise-development-main.jpg"
+                                                    src="https://heigh10.com/wp-content/uploads/2023/03/expertise-development-main.jpg"
                                                     alt="">
                                             </picture>
                                         </div>
@@ -215,9 +215,9 @@ get_header('4');
                                         <div class="image_zoom">
                                             <picture>
                                                 <source type="image/jpg"
-                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/expertise-digital-marketing-main.jpg">
+                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/expertise-digital-marketing-main.jpg">
                                                 <img class="banner_img" data-scroll data-scroll-speed="-4"
-                                                    src="http://44.234.56.37/wp-content/uploads/2023/03/expertise-digital-marketing-main.jpg"
+                                                    src="https://heigh10.com/wp-content/uploads/2023/03/expertise-digital-marketing-main.jpg"
                                                     alt="">
                                             </picture>
                                         </div>
@@ -251,9 +251,9 @@ get_header('4');
                                         <div class="image_zoom">
                                             <picture>
                                                 <source type="image/jpg"
-                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/expertise-marketing-materials-main.jpg">
+                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/expertise-marketing-materials-main.jpg">
                                                 <img class="banner_img" data-scroll data-scroll-speed="-2"
-                                                    src="http://44.234.56.37/wp-content/uploads/2023/03/expertise-marketing-materials-main.jpg"
+                                                    src="https://heigh10.com/wp-content/uploads/2023/03/expertise-marketing-materials-main.jpg"
                                                     alt="">
                                             </picture>
                                         </div>
@@ -288,9 +288,9 @@ get_header('4');
                                         <div class="image_zoom">
                                             <picture>
                                                 <source type="image/jpg"
-                                                    srcset="http://44.234.56.37/wp-content/uploads/2023/03/expertise-ongoing-support-main.jpg">
+                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/expertise-ongoing-support-main.jpg">
                                                 <img class="banner_img" data-scroll data-scroll-speed="-2"
-                                                    src="http://44.234.56.37/wp-content/uploads/2023/03/expertise-ongoing-support-main.jpg"
+                                                    src="https://heigh10.com/wp-content/uploads/2023/03/expertise-ongoing-support-main.jpg"
                                                     alt="">
                                             </picture>
                                         </div>

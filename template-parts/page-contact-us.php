@@ -8,7 +8,7 @@ get_header();
 <div class="c-page-blk--out"></div>
 <div class="c-transition-blk-out--menu"></div>
 <main class="wrapper">
-	<div class="contact-hero" style="background-image: url(http://44.234.56.37/wp-content/uploads/2023/03/contact-us-banner.jpg);">
+	<div class="contact-hero" style="background-image: url(https://heigh10.com/wp-content/uploads/2023/03/contact-us-banner.jpg);">
 		<div class="bottom-shadow">
 			<p>/ Contact us</p>
 		<h1>
