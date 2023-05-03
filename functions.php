@@ -96,13 +96,13 @@ add_filter('nav_menu_link_attributes', function ($classes, $item, $args)
 }, 1, 3);
 
 
-function add_class_to_href( $classes, $item ) {
-    if ( in_array('current_page_item', $item->classes) ) {
-        $classes['class'] .= ' w--current';
-    }
-    return $classes;
-}
-add_filter( 'nav_menu_link_attributes', 'add_class_to_href', 10, 2 );
+// function add_class_to_href( $classes, $item ) {
+//     if ( in_array('current_page_item', $item->classes) ) {
+//         $classes['class'] .= ' w--current';
+//     }
+//     return $classes;
+// }
+// add_filter( 'nav_menu_link_attributes', 'add_class_to_href', 10, 2 );
 
 
 

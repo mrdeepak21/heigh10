@@ -40,11 +40,13 @@
     </div>
     <div class="col">
         <div class="footer">           
-            <a href="<?php echo get_theme_mod('social_links_ln'); ?>"
+        <a href="<?php echo get_theme_mod('social_links_ln'); ?>"
             target="_blank" class="h5"><b>In</b></a>&nbsp;&nbsp;
+            <a href="<?php echo get_theme_mod('social_links_fb'); ?>"
+            target="_blank" class="h5"><b>Fb</b></a>&nbsp;&nbsp;
              <a href="<?php echo get_theme_mod('social_links_ig'); ?>"
             target="_blank" class="h5"><b>Ig</b></a><br>
-             <br>           
+             <br>                      
         </div>
         
     </div>

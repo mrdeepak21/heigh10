@@ -9,11 +9,11 @@ get_header('4');
         <div data-scroll-container="">
             <main id="main">
                 <div data-scroll-section>
-                    <section id="slideshow" parallax=".1" data-scroll-sticky>
+                    <div id="slideshow" parallax=".1" data-scroll-sticky>
                       <div class="slideshow-inner header_animate" data-scroll="" data-scroll-speed="-9">
                     <?php the_content(); ?>
                     </div>
-                </section>
+                </div>
                 </div>
                 <section class="section overflow_hide" data-scroll-section="">
                     <div class="q-container container-inner menu_fade reveal scrollanim_intro">
@@ -120,78 +120,7 @@ get_header('4');
                                     </div>
                                     <div>
                                         <div class="label">
-                                            <h3 class="type-sub2 project-title">
-                                                <div style="display: inline-block;">
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        S</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        t</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        e</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        r</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        l</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        i</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        n</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        g</div>&nbsp;
-                                                </div>
-                                                <div style="display: inline-block;">
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        A</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        d</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        m</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        i</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        n</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        i</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        s</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        t</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        r</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        a</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        t</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        i</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        o</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        n</div>
-                                                </div>
-                                            </h3>
+                                            <h3 class="type-sub2 project-title">Sterling Administration</h3>
                                             <div class="type-sub3 animation animation-appear">Website, Social Media
                                                 Management, Marketing Materials, Email Marketing and Ongoing Support
                                             </div>
@@ -257,69 +186,7 @@ get_header('4');
                                             </div>
                                             <div>
                                                 <div class="label">
-                                                    <h3 class="type-sub2 project-title">
-                                                        <div style="display: inline-block;">
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                A</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                m</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                a</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                z</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                i</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                n</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                g</div>
-                                                        </div>
-                                                        <div style="display: inline-block;">
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                C</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                a</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                r</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                e</div>
-
-                                                        </div>
-                                                        <div style="display: inline-block;">
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                N</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                e</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                t</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                w</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                o</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                r</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                k</div>
-                                                        </div>
-                                                    </h3>
+                                                    <h3 class="type-sub2 project-title">Amazing Care Network</h3>
                                                     <div class="type-sub3 animation animation-appear">Website, Email
                                                         Marketing and Ongoing Support.</div>
                                                 </div>
@@ -381,24 +248,7 @@ get_header('4');
                                     </div>
                                     <div>
                                         <div class="label">
-                                            <h3 class="type-sub2 project-title">
-                                                <div style="display: inline-block;">
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        F</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        M</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        L</div>
-                                                    <div
-                                                        style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                        A</div>
-                                                    &nbsp;
-                                                </div>
-
-                                            </h3>
+                                            <h3 class="type-sub2 project-title">FMLA</h3>
                                             <div class="type-sub3 animation animation-appear">Website, Social Media
                                                 Management, Marketing Materials and Ongoing Support</div>
                                         </div>
@@ -454,49 +304,7 @@ get_header('4');
                                             </div>
                                             <div>
                                                 <div class="label">
-                                                    <h3 class="type-sub2 project-title">
-                                                        <div style="display: inline-block;">
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                S</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                h</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                r</div>
-                                                            <div
-                                                                style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                i</div>
-
-                                                            <div style="display: inline-block;">
-                                                                <div
-                                                                    style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                    H</div>
-                                                                <div
-                                                                    style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                    a</div>
-                                                                <div
-                                                                    style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                    r</div>
-                                                                <div
-                                                                    style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                    i</div>
-
-                                                            </div>
-                                                            <div style="display: inline-block;">
-                                                                <div
-                                                                    style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                    D</div>
-                                                                <div
-                                                                    style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                    e</div>
-                                                                <div
-                                                                    style="display: inline-block; opacity: 1; clip-path: inset(0%); transform: none;">
-                                                                    v</div>
-
-                                                            </div>
-                                                    </h3>
+                                                    <h3 class="type-sub2 project-title">Shri Hari Development</h3>
                                                     <div class="type-sub3 animation animation-appear">Website, Marketing
                                                         Materials, and Branding</div>
                                                 </div>

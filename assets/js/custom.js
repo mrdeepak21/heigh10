@@ -323,7 +323,7 @@ $(document).ready(()=>{
   $('.w_loader').slideUp('slow');
   //Text Logo - home
 setTimeout(()=>{
-  $('#h10_text').fadeOut('slow');
+ if($('.c-menu').is(':hidden')){ $('#h10_text').fadeOut('slow');}
 },5000);
 //text-logo : other
 $(window).scroll(()=>{
@@ -350,3 +350,21 @@ $('#hamburger').click(()=>{
     }
 });
 });
+
+/**Slider btn hover effect */
+
+// $('.rev-btn').mousemove(function (e) {
+//   TweenMax.to($('.rev-btn'), 1, {
+//     x: 50,
+//     y: 50,
+//     ease: Power2.easeOut
+//   })
+// });
+
+// $('.rev-btn').mouseleave(function (e) {  
+//   TweenMax.to($('.rev-btn'), 1, {
+//     x: 0,
+//     y: 0,
+//     ease: Power2.easeOut
+//   })
+// });

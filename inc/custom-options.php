@@ -107,6 +107,25 @@ $wp_customize->add_control(
 );
 
   // Save settings to database
+  $wp_customize->add_setting('social_links_fb', array(
+    'default' => '',
+    'transport' => 'refresh'
+));
+
+$wp_customize->add_control(
+    new WP_Customize_Control(
+        $wp_customize,
+        'facebook',
+        array(
+            'label'          => __('facebook', 'facebook' ),
+            'section'        => 'custom_option',
+            'settings'       => 'social_links_fb',
+            'type'           => 'url'
+        )
+    )
+);
+
+  // Save settings to database
   $wp_customize->add_setting('social_links_ig', array(
     'default' => '',
     'transport' => 'refresh'

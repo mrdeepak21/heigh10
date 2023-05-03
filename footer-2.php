@@ -44,6 +44,8 @@
       <div class="footer">           
             <a href="<?php echo get_theme_mod('social_links_ln'); ?>"
             target="_blank" class="h5"><b>In</b></a>&nbsp;&nbsp;
+            <a href="<?php echo get_theme_mod('social_links_fb'); ?>"
+            target="_blank" class="h5"><b>Fb</b></a>&nbsp;&nbsp;
              <a href="<?php echo get_theme_mod('social_links_ig'); ?>"
             target="_blank" class="h5"><b>Ig</b></a><br>
              <br>           
@@ -70,7 +72,7 @@
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.js" type="text/javascript"></script>
 <script  src="<?php bloginfo('template_directory'); ?>/assets/js/main.js" type="text/javascript"></script>
 <script  src="<?php bloginfo('template_directory'); ?>/assets/js/custom.js" type="text/javascript"></script>
-<script  src="<?php bloginfo('template_directory'); ?>/assets/js/scripts.js"></script>
+<script  src="<?php bloginfo('template_directory'); ?>/assets/js/scripts.js" type="text/javascript"></script>
 <?php wp_footer(); ?>
 </body>
 

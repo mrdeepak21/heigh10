@@ -223,44 +223,42 @@
 		</div>
 	</div>
 </div>
-  <nav class="c-menu navigation">
-    <div class="c-menu--wrapper new">
-      <div class="c-menu--flex new">
-        <div id="w-node-_7d0200cc-4c86-f377-2431-ce8f396a4d09-396a4d06" class="mt-250">          
-          <?php wp_nav_menu( array( 
-            'container'=> false, 
-            'menu_class'=> 'c-menu_wrapper',
-            'theme_location' => 'primary-menu',
-            'menu_id'=> 'main_menu',
-            'add_li_class'=>'underline-animation__wrap is--menu', 
-            'add_a_class'=>'underline-animation is--large',
-            'add_a_attr' => '7d0200cc-4c86-f377-2431-ce8f396a4d13'
-            ));
-          ?>
-
-
-        </div>
-        <div id="w-node-_7d0200cc-4c86-f377-2431-ce8f396a4d1e-396a4d06"
-          class="c-footer__grid-cards menu f-bottom mt-250 p-0">
-          <div class="col">
-            <a href="<?php echo site_url(); ?>/contact-us" data-w-id="96fbbb74-ce84-3c79-6e1c-84ff9df337f7"
-              style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);opacity:0;margin-top: 2em;"
-              class="c-button no-outlined black hero w-inline-block">
-              <h6 class="c-button__txt">Let's Collaborate</h6><img
-                src="<?php bloginfo('template_directory'); ?>/assets/images/right-arrow.svg" loading="lazy" alt=""
-                class="c-button--arrow">
-            </a>
-          </div>
-          <div class="col menu_bottom">
-          <div class="social">
+<nav class="c-menu">
+		<div class="c-menu--wrapper">
+			<div class="c-menu--flex">
+					<?php wp_nav_menu( array( 
+				'container'=> false, 
+				'menu_class'=> 'c-menu_wrapper nav_menu',
+				'theme_location' => 'primary-menu',
+				'menu_id'=> 'main_menu',
+				'add_li_class'=>'underline-animation__wrap is--menu', 
+				'add_a_class'=>'underline-animation is--large',
+				'add_a_attr' => '7d0200cc-4c86-f377-2431-ce8f396a4d13'
+				));
+			  ?>				
+				<div class="main-menu-bottom c-menu--flex f-bottom" data-w-id="7d0200cc-4c86-f377-2431-ce8f396a4d13">
+					<div class="col">
+						<a href="<?php echo site_url(); ?>/contact-us" data-w-id="96fbbb74-ce84-3c79-6e1c-84ff9df337f7"
+							style="-webkit-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-moz-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);-ms-transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);transform:translate3d(0, 20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(null, 2deg);opacity:0;margin-top: 2em;"
+							class="c-button no-outlined black hero w-inline-block">
+							<h6 class="c-button__txt">Let's Collaborate</h6><img
+								src="<?php bloginfo('template_directory'); ?>/assets/images/right-arrow.svg"
+								loading="lazy" alt="" class="c-button--arrow">
+						</a>
+					</div>
+					<div class="col menu_bottom">
+						<div class="social">
 					<a href="<?php echo get_theme_mod('social_links_ln'); ?>" class="social_links" target="_blank"
-              style="" ><img src="https://heigh10.com/wp-content/uploads/2023/04/heigh10-linkedin-2.svg" alt="Heigh10 LinkedIn"></a> &nbsp;
+              ><img src="https://heigh10.com/wp-content/uploads/2023/04/heigh10-linkedin-2.svg" alt="Heigh10 LinkedIn"></a> 
+			  &nbsp;
+              <a href="<?php echo get_theme_mod('social_links_fb'); ?>" class="social_links" target="_blank"><img src="https://heigh10.com/wp-content/uploads/2023/05/facebook-circled.svg" alt="Heigh10 FB"></a> 
+			  &nbsp;
               <a href="<?php echo get_theme_mod('social_links_ig'); ?>" class="social_links" target="_blank"><img src="https://heigh10.com/wp-content/uploads/2023/04/heigh10-instagram.svg" alt="Heigh10 IG"></a>
 			  </div>
-            <?php wp_nav_menu( array( 'theme_location' => 'privacy-policy',  'menu_class'=> 'nav_menu privacy_menu', 'container'=> false ) ); ?>
-          </div>
-        </div>
-      </div>
-      <div class="menu__background"></div>
-    </div>
-  </nav>
+						<?php wp_nav_menu( array( 'theme_location' => 'privacy-policy',  'menu_class'=> 'nav_menu privacy_menu', 'container'=> false ) ); ?>
+					</div>
+				</div>
+			</div>
+			<div class="menu__background"></div>
+		</div>
+	</nav>
