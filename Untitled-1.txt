@@ -1,0 +1,182 @@
+      <a
+                                            class="thumbnail-container even"
+                                            href="<?php echo site_url(); ?>/work/amazing-care-network/">
+                                            <div>
+                                                <div class="image-container show">
+                                                    <div class="image-wrapper">
+                                                        <div class=" gatsby-image-wrapper"
+                                                            style="position: relative; overflow: hidden;">
+                                                            <div aria-hidden="true"
+                                                                style="width: 100%; padding-bottom: 133.571%;">
+                                                            </div>
+                                                            <picture>
+                                                                <source type="image/webp"
+                                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&amp;h=187&amp;q=90&amp;fm=webp 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&amp;h=374&amp;q=90&amp;fm=webp 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;h=748&amp;q=90&amp;fm=webp 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&amp;h=1122&amp;q=90&amp;fm=webp 840w"
+                                                                    sizes="(max-width: 560px) 100vw, 560px">
+                                                                <source srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                                    sizes="(max-width: 560px) 100vw, 560px"><img
+                                                                    sizes="(max-width: 560px) 100vw, 560px" srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                                    src="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&amp;q=90"
+                                                                    alt="" loading="lazy"
+                                                                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                                                            </picture><noscript>
+                                                                <picture>
+                                                                    <source type='image/webp' srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&h=187&q=90&fm=webp 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&h=374&q=90&fm=webp 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&h=748&q=90&fm=webp 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&h=1122&q=90&fm=webp 840w"
+                                                                        sizes="(max-width: 560px) 100vw, 560px" />
+                                                                    <source srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&h=1122&q=90 840w"
+                                                                        sizes="(max-width: 560px) 100vw, 560px" /><img
+                                                                        loading="lazy"
+                                                                        sizes="(max-width: 560px) 100vw, 560px" srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=840&h=1122&q=90 840w"
+                                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg?w=560&q=90"
+                                                                        alt=""
+                                                                        style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                                                                </picture>
+                                                            </noscript>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="label">
+                                                    <h3 class="type-sub2 project-title">Amazing Care Network</h3>
+                                                    <div class="type-sub3 animation animation-appear">Website, Email
+                                                        Marketing and Ongoing Support.</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    
+                                <a class="thumbnail-container undefined"
+                                    href="<?php echo site_url(); ?>/work/fmla/">
+                                    <div>
+                                        <div class="image-container show">
+                                            <div class="image-wrapper">
+                                                <div class=" gatsby-image-wrapper"
+                                                    style="position: relative; overflow: hidden;">
+                                                    <div aria-hidden="true"
+                                                        style="width: 100%; padding-bottom: 133.571%;"></div>
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&amp;h=187&amp;q=90&amp;fm=webp 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&amp;h=374&amp;q=90&amp;fm=webp 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;h=748&amp;q=90&amp;fm=webp 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&amp;h=1122&amp;q=90&amp;fm=webp 840w"
+                                                            sizes="(max-width: 560px) 100vw, 560px">
+                                                        <source srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                            sizes="(max-width: 560px) 100vw, 560px"><img
+                                                            sizes="(max-width: 560px) 100vw, 560px" srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                            src="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&amp;q=90"
+                                                            alt="" loading="lazy"
+                                                            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                                                    </picture><noscript>
+                                                        <picture>
+                                                            <source type='image/webp' srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&h=187&q=90&fm=webp 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&h=374&q=90&fm=webp 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&h=748&q=90&fm=webp 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&h=1122&q=90&fm=webp 840w"
+                                                                sizes="(max-width: 560px) 100vw, 560px" />
+                                                            <source srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&h=1122&q=90 840w"
+                                                                sizes="(max-width: 560px) 100vw, 560px" /><img
+                                                                loading="lazy" sizes="(max-width: 560px) 100vw, 560px"
+                                                                srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=840&h=1122&q=90 840w"
+                                                                src="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg?w=560&q=90"
+                                                                alt=""
+                                                                style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                                                        </picture>
+                                                    </noscript>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="label">
+                                            <h3 class="type-sub2 project-title">FMLA</h3>
+                                            <div class="type-sub3 animation animation-appear">Website, Social Media
+                                                Management, Marketing Materials and Ongoing Support</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                                        <a  class="thumbnail-container even"
+                                            href="<?php echo site_url(); ?>/work/shri-hari-dev/">
+                                            <div>
+                                                <div class="image-container show">
+                                                    <div class="image-wrapper">
+                                                        <div class=" gatsby-image-wrapper"
+                                                            style="position: relative; overflow: hidden;">
+                                                            <div aria-hidden="true"
+                                                                style="width: 100%; padding-bottom: 133.571%;">
+                                                            </div>
+                                                            <picture>
+                                                                <source
+                                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                                    sizes="(max-width: 560px) 100vw, 560px"><img
+                                                                    sizes="(max-width: 560px) 100vw, 560px"
+                                                                    srcset="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&amp;h=187&amp;q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&amp;h=374&amp;q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&amp;h=748&amp;q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&amp;h=1122&amp;q=90 840w"
+                                                                    src="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&amp;q=90"
+                                                                    alt="" loading="lazy"
+                                                                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1; transition: opacity 500ms ease 0s;">
+                                                            </picture><noscript>
+                                                                <picture>
+                                                                    <source srcset="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&h=1122&q=90 840w"
+                                                                        sizes="(max-width: 560px) 100vw, 560px" /><img
+                                                                        loading="lazy"
+                                                                        sizes="(max-width: 560px) 100vw, 560px" srcset="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=140&h=187&q=90 140w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=280&h=374&q=90 280w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&h=748&q=90 560w,
+                    https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=840&h=1122&q=90 840w"
+                                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg?w=560&q=90"
+                                                                        alt=""
+                                                                        style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center" />
+                                                                </picture>
+                                                            </noscript>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="label">
+                                                    <h3 class="type-sub2 project-title">Shri Hari Development</h3>
+                                                    <div class="type-sub3 animation animation-appear">Website, Marketing
+                                                        Materials, and Branding</div>
+                                                </div>
+                                            </div>
+                                        </a>
