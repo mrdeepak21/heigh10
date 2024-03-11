@@ -3,6 +3,18 @@
 Template Name: Our Works
 */
 get_header('4');
+
+$i=1;
+$data_color = ['#EAF8FF','#FFD5C2','#FFDBAF','#CAD9E9'];
+$data_bg = ['#102F4B','#2C1F19','#2E2A24','#232A33'];
+$data_col = ['#79B4D3','#B98C76','#B0987B','#7C95B7'];
+
+
+    $posts = new WP_Query([ 'post_type' => 'work',
+    'post_status' => 'publish',
+    'posts_per_page' => -1, 
+    'orderby' => 'ID', 
+    'order' => 'ASC']); 
 ?>
 
 <div id="barba-wrapper">
@@ -38,121 +50,43 @@ get_header('4');
 
                         <div class="q-container container-inner menu_fade">
 
-                            <div class="columns">
+                            <?php while ($posts->have_posts() ) : $posts->the_post(); 
+                            $is_odd = $i%2==0?false:true;
+                            _e($is_odd?'<div class="columns">':null);
+                            ?>
 
-                                <!-- Sterling Administration -->
                                 <div class="column q-1-2">                                    
-                                    <a href="<?php echo site_url(); ?>/work/sterling-administration/" data-scroll data-color="#EAF8FF" data-bg="#102F4B"
-                                        data-hover="View" data-col="#79B4D3">
+                                    <a href="<?php the_permalink(); ?>" data-scroll <?php echo !$is_odd?'data-scroll-speed="-2"':null; ?> data-color="<?php echo $data_color[$i-1]?$data_color[$i-1]:'#EAF8FF'; ?>" data-bg="<?php echo $data_bg[$i-1]?$data_bg[$i-1]:'#102F4B'; ?>" 
+                                        data-hover="View" data-col="<?php echo $data_col[$i-1]?$data_col[$i-1]:'#79B4D3'; ?>">
                                         <div class="half_image image_zoom_wrapper">
                                             <div class="image_zoom">
+                                                <?php if (has_post_thumbnail( $post->ID ) ): 
+                                        $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full');
+                                                    ?>
                                                 <picture>
                                                     <source type="image/jpg"
-                                                        srcset="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg">
+                                                        srcset="<?php echo $image[0]; ?>">
                                                     <img class="banner_img" data-scroll data-scroll-speed="-4"
-                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-sterling-main-v2.jpg"
+                                                        src="<?php echo $image[0]; ?>"
                                                         alt="">
                                                 </picture>
+                                                <?php endif; ?>
                                             </div>
                                         </div>
                                         <div class="work_caption">
-                                            <span class="client">Sterling Administration</span>
+                                            <span class="client"><?php _e(get_the_title()); ?></span>
                                             <span class="line_sep"></span>
                                         </div>
-                                        <h4>A reimagined marketing strategy and digital presence for the leader in healthcare</h4>
-                                        <p class="desc">
-                                            Website, Social Media Management, Marketing Materials, Email Marketing and Ongoing Support.
-                                        </p>
+                                        <h4><?php _e( get_the_excerpt(),'heigh10'); ?></h4>
+                                        <p class="desc"><?php _e(get_post_meta( $post->ID , 'work_fields',true),'heigh10'); ?></p>
                                     </a>
                                 </div>
-
-                                <!-- ACN -->
-                                <div class="column q-1-2">
-                                    <a href="<?php echo site_url(); ?>/work/amazing-care-network/" data-scroll data-scroll-speed="-2"
-                                        data-color="#FFD5C2" data-bg="#2C1F19" data-hover="View" data-col="#B98C76">
-                                        <div class="half_image image_zoom_wrapper">
-                                            <div class="image_zoom">
-                                                <picture>
-                                                    <source type="image/jpg"
-                                                        srcset="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg">
-                                                    <img class="banner_img" data-scroll data-scroll-speed="-2"
-                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-acn-main.jpg"
-                                                        alt="">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                        <div class="work_caption">
-                                            <span class="client"> Amazing Care Network</span>
-                                            <span class="line_sep"></span>
-                                        </div>
-                                        <h4>A community website designed with a purpose</h4>
-                                        <p class="desc">
-                                            Website, Email Marketing and Ongoing Support.
-                                        </p>
-                                    </a>
-                                </div>
-
-                            </div>
-
-
-
-                            <div class="columns">
-                                <!--  Sterling FMLA -->
-                                <div class="column q-1-2">
-                                    <a href="<?php echo site_url(); ?>/work/fmla/" data-color="#FFDBAF" data-bg="#2E2A24"
-                                        data-hover="View" data-col="#B0987B">
-                                        <div class="half_image image_zoom_wrapper">
-                                            <div class="image_zoom">
-                                                <picture>
-                                                    <source type="image/jpg"
-                                                        srcset="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg">
-                                                    <img class="banner_img" data-scroll data-scroll-speed="-4"
-                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-fmla-main-1.jpg"
-                                                        alt="">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                        <div class="work_caption">
-                                            <span class="client"> Sterling FMLA</span>
-                                            <span class="line_sep"></span>
-                                        </div>
-                                        <h4>A modern digital presence for launching Sterling's FMLA service
-                                        </h4>
-                                        <p class="desc">
-                                            Website, Social Media Management, Marketing Materials and Ongoing Support.
-                                        </p>
-                                    </a>
-                                </div>
-
-                                
-                                <!--  Shri Hari Development -->
-                                <div class="column q-1-2">
-                                    <a href="<?php echo site_url(); ?>/work/shri-hari-dev/" data-scroll data-scroll-speed="-2"
-                                        data-color="#CAD9E9" data-bg="#232A33" data-hover="View" data-col="#7C95B7">
-                                        <div class="half_image image_zoom_wrapper">
-                                            <div class="image_zoom">
-                                                <picture>
-                                                    <source type="image/jpg"
-                                                        srcset="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg">
-                                                    <img class="banner_img" data-scroll data-scroll-speed="-2"
-                                                        src="https://heigh10.com/wp-content/uploads/2023/03/work-shri-hari-main.jpg"
-                                                        alt="">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                        <div class="work_caption">
-                                            <span class="client">Shri Hari Development</span>
-                                            <span class="line_sep"></span>
-                                        </div>
-                                        <h4>Luxury branding for a modern construction company
-                                        </h4>
-                                        <p class="desc">                                            
-                                            Website, Marketing Materials, and Branding.                                
-                                        </p>
-                                    </a>
-                                </div>
-
-                            </div>
+                                <?php
+                                _e(!$is_odd?' </div>':null);
+                                    $i++;
+                                endwhile;
+                                wp_reset_postdata();
+                                ?>
                         </div>
                     </section>
 
