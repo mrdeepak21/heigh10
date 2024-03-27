@@ -292,4 +292,5 @@ add_post_type_support('post','excerpt');
 
 
 
-
+//Disable Gutenburg
+add_filter('use_block_editor_for_post', '__return_false', 10);
