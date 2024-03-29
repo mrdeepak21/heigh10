@@ -57,7 +57,8 @@ get_header('4');
                                 'post_status' => 'publish',
                                 'posts_per_page' => -1, 
                                 'orderby' => 'ID', 
-                                'order' => 'DESC']);                                     
+                                'order' => 'DESC']);  
+                                if (have_posts()) {                                 
                                 while ($posts->have_posts() ) : $posts->the_post();  ?>
 
 
@@ -88,11 +89,16 @@ get_header('4');
                                         <?php
                            
                         endwhile;
+                                } else {
+                                       ?>
+                                       <li>
+                                    <p><?php _e('Nothing found here!');  ?></p>
+                                       </li>
+                                       <?php                             }
                         wp_reset_postdata();
                         ?>
                         <!-- /////////////// END NEW BLOGS /////////////// -->
                                     </ol>
-
                                 </div>
                             </div>
                         </div>
