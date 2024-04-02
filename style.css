@@ -186,10 +186,21 @@ a{
 .c-menu_wrapper {
     display: flex;
     flex-direction: row;
-    font-size: 18px;
+    font-size: 1dvw;
     justify-content: space-around !important;
     align-items: center;
     padding: 10px;
+}
+
+@media (max-width:1024px){
+	.c-menu_wrapper {
+		  font-size: 2dvw;
+	}
+}
+@media (max-width:767px){
+	.c-menu_wrapper {
+		  font-size: 5dvw;
+	}
 }
 
 .c-menu--wrapper {
@@ -406,7 +417,7 @@ nav .nav_menu a {
 }
 
 footer footer {
-    height: 90vh;
+    height: 92vh;
 }
 
 footer h2 {
