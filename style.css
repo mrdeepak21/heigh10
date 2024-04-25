@@ -1269,3 +1269,21 @@ left: 10%;
     }
 }
 
+.the-content h2{
+    margin-bottom: 20px;
+}
+
+.the-content p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.the-content img{
+    border-radius: 10px;
+    margin:  30px 0;
+}
+
+.the-content li{
+    margin: 20px 0;
+     font-size: 18px;
+}
