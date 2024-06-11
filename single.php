@@ -68,8 +68,8 @@ get_header('4');
                                     <?php 
                                     if(!empty($next_post)) {   
                                          if (has_post_thumbnail( $next_post->ID ) ): 
-                                            $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail'); 
-                                         endif;     
+                                            $image = wp_get_attachment_image_src( get_post_thumbnail_id(  $next_post->ID ), ); 
+                                         endif;                                          
                                         ?>
                                         <li class="journal-thumbnail-container link">
                                         <div>
@@ -83,15 +83,15 @@ get_header('4');
                                                     <span class="more">+</span>
                                                 </div>
                                             </a>
-                                        </div>
-                                        <img class="motion_hover__img" data-src="<?php echo $image[0]; ?>" src="<?php echo $image[0]; ?>" alt="<?php _e(get_the_title($next_post->ID)); ?>" />
+                                        </div> 
+                                        <img width="100px" height="100px" class="motion_hover__img" src="<?php echo $image[0]; ?>"alt="<?php _e(get_the_title($next_post->ID)); ?>" />                                      
                                     </li>
 
                                     <?php   }
 
                                     if(!empty($prev_post)) {
-                                        if (has_post_thumbnail( $next_post->ID ) ): 
-                                            $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail');
+                                        if (has_post_thumbnail($prev_post->ID) ): 
+                                            $image = wp_get_attachment_image_src( get_post_thumbnail_id($prev_post->ID ), [100,100]);
                                         endif;
                                      ?>
                                     <li class="journal-thumbnail-container link">
@@ -99,8 +99,8 @@ get_header('4');
                                             <a href="<?php echo get_permalink($prev_post->ID); ?>" class="hover-target">
                                                 <div class="label">
                                                     <span class="indicator font_caps">Prev</span>
-                                                    <h4>
-                                                        <?php _e($prev_post->post_title); ?>
+                                                    <h4>                                                         
+                                                    <?php _e($prev_post->post_title); ?>
                                                     </h4>
                                                     <p>
                                                         <?php _e(get_the_excerpt($prev_post->ID));  ?>
@@ -108,8 +108,8 @@ get_header('4');
                                                     <span class="more">+</span>
                                                 </div>
                                             </a>
-                                        </div> 
-                                        <img class="motion_hover__img" data-src="<?php echo $image[0]; ?>" alt="<?php _e(get_the_title($next_post->ID)); ?>" src="<?php echo $image[0]; ?>" alt="<?php _e(get_the_title($next_post->ID)); ?>" />                                       
+                                        </div>  
+                                        <img width="100px" height="100px" class="motion_hover__img" alt="<?php _e(get_the_title($prev_post->ID)); ?>" src="<?php echo $image[0]; ?>" alt="<?php _e(get_the_title($prev_post->ID)); ?>" />                                                                     
                                     </li>
                                     <?php  } ?>
 
