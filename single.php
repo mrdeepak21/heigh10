@@ -97,7 +97,7 @@ get_header('4');
                                                         <?php _e($prev_post->post_title); ?>
                                                     </h4>
                                                     <p>
-                                                        <?php _e($prev_post->post_excerpt); ?>
+                                                        <?php_e(get_the_excerpt($prev_post->ID));  ?>
                                                     </p>
                                                     <span class="more">+</span>
                                                 </div>
