@@ -75,7 +75,7 @@ get_header('4');
                                                     <span class="indicator font_caps">Next</span>
                                                     <h4> <?php _e(get_the_title($next_post->ID)); ?></h4>
                                                     <p>
-                                                    <?php _e($next_post->post_excerpt); ?>
+                                                    <?php  _e(get_the_excerpt($next_post->ID)); ?>
                                                     </p>
                                                     <span class="more">+</span>
                                                 </div>
