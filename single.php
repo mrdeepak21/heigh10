@@ -84,14 +84,14 @@ get_header('4');
                                                 </div>
                                             </a>
                                         </div>
-                                        <img class="motion_hover__img" data-src="<?php echo $image[0]; ?>" alt="<?php _e(get_the_title($next_post->ID)); ?>" />
+                                        <img class="motion_hover__img" data-src="<?php echo $image[0]; ?>" src="<?php echo $image[0]; ?>" alt="<?php _e(get_the_title($next_post->ID)); ?>" />
                                     </li>
 
                                     <?php   }
 
                                     if(!empty($prev_post)) {
                                         if (has_post_thumbnail( $next_post->ID ) ): 
-                                            $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail'); 
+                                            $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail');
                                         endif;
                                      ?>
                                     <li class="journal-thumbnail-container link">
@@ -109,7 +109,7 @@ get_header('4');
                                                 </div>
                                             </a>
                                         </div> 
-                                        <img class="motion_hover__img" data-src="<?php echo $image[0]; ?>" alt="<?php _e(get_the_title($next_post->ID)); ?>" />                                       
+                                        <img class="motion_hover__img" data-src="<?php echo $image[0]; ?>" alt="<?php _e(get_the_title($next_post->ID)); ?>" src="<?php echo $image[0]; ?>" alt="<?php _e(get_the_title($next_post->ID)); ?>" />                                       
                                     </li>
                                     <?php  } ?>
 
