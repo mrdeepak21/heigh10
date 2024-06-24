@@ -1283,6 +1283,10 @@ left: 10%;
     margin:  30px 0;
 }
 
+.motion_hover__img{
+    border-radius: 10px!important;
+}
+
 .the-content li{
     margin: 20px 0;
      font-size: 18px;
