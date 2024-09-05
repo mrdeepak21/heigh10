@@ -44,7 +44,7 @@ get_header('4');
                             <div class="columns">
                                 <div class="column menu_fade">
 
-                                    <ol class="journal-list motion_hover_container">
+                                    <ol class="journal-list">
 
                                         <li>
                                             <p class="font_caps">/ Latest Posts</p>
@@ -75,13 +75,7 @@ get_header('4');
                                                     </div>
                                                 </a>
                                             </div>
-                                            <?php if (has_post_thumbnail( $post->ID ) ): 
-                         $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full');
-                                                    ?>
-                                            <img class="motion_hover__img" width="360px"
-                                                src="<?php echo $image[0]; ?>"
-                                                alt="<?php _e(get_the_title()); ?>" />
-                                                <?php endif; ?>
+                                         
                                         </li>
 
 
