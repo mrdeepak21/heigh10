@@ -136,8 +136,14 @@ get_header('4');
                                 </div>
                                 <div>
                                     <div class="label">
-                                        <h3 class="type-sub2 project-title"><?php _e(the_title()); ?></h3>
-                                        <div class="type-sub3 animation animation-appear"><?php echo get_post_meta( get_the_ID(), 'work_fields', true); ?></div>
+                                    <?php 
+                                    $logo_link = get_post_meta( $post->ID , 'logo_link',true);
+                                    if($logo_link!=="") {  ?>
+                                  <div class="project_logo">  <img src="<?php echo site_url( $logo_link ); ?>"/> </div>
+                                    <?php } else { ?>
+                                    <h3 class="type-sub2 project-title"><?php _e(the_title()); ?></h3>
+                                    <?php } ?>
+                                    <div class="type-sub3 animation animation-appear"><?php echo get_post_meta( get_the_ID(), 'work_fields', true); ?></div>
                                     </div>
                                 </div>
                             </a>
