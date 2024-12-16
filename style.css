@@ -1301,3 +1301,10 @@ left: 10%;
 .project_logo img{
     max-width: 200px;
 }
+
+.heighlight-icon{
+    width: 50px; 
+    display: inline-block;
+    margin: 0 0 0 -50px!important;
+    float: left;
+}
