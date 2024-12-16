@@ -64,7 +64,7 @@ if($query){
 
                                 </div>
                                 <div class="column q-2-3">
-                                    <p class="lead"><?php echo get_the_content(); ?></p>         
+                                    <p class="lead"><?php the_content(); ?></p>         
                                             <a data-w-id="96fbbb74-ce84-3c79-6e1c-84ff9df337f7"
                                                 style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
                                                 href="<?php echo $web_link[0]; ?>" target="_blank" 

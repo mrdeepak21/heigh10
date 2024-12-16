@@ -1302,8 +1302,9 @@ left: 10%;
     max-width: 200px;
 }
 
-.heighlight-icon{
-    width: 50px; 
+
+.the-content img.heighlight-icon{
+    max-width: 50px; 
     display: inline-block;
     margin: 0 0 0 -50px!important;
     float: left;
