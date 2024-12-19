@@ -50,8 +50,7 @@ if($query){
 
                     <section class="section work_details no-pb" data-scroll-section>
                         <div class="q-container container-inner scrollanim_intro">
-                            <div class="columns menu_fade" data-scroll data-scroll-speed="-8.5"
-                                data-scroll-offset="-100%,-100%">
+                            <div class="columns menu_fade" >
                                 <div class="column q-1-3">
                                     <div class="work_info">
                                         <ul class="exp">
@@ -61,10 +60,10 @@ if($query){
                                             
                                         </ul>
                                     </div>
-
                                 </div>
+                                
                                 <div class="column q-2-3">
-                                    <p class="lead"><?php the_content(); ?></p>         
+                                    <div class=""><?php the_content(); ?></div>         
                                             <a data-w-id="96fbbb74-ce84-3c79-6e1c-84ff9df337f7"
                                                 style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0"
                                                 href="<?php echo $web_link[0]; ?>" target="_blank" 

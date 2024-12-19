@@ -1300,6 +1300,8 @@ left: 10%;
 
 .project_logo img{
     max-width: 200px;
+    max-height: 100px;
+    object-fit: contain;
 }
 
 
@@ -1308,4 +1310,8 @@ left: 10%;
     display: inline-block;
     margin: 0 0 0 -50px!important;
     float: left;
+}
+
+.work_details h2 {
+    margin: 2rem 0 1rem 0;
 }

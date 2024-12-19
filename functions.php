@@ -294,8 +294,3 @@ add_post_type_support('post','excerpt');
 
 //Disable Gutenburg
 add_filter('use_block_editor_for_post', '__return_false', 10);
-
-
-add_action('wp_footer',function(){
-	echo '<script src="//code.tidio.co/rkeczmgy1qc66kqsibxxvafy4npzeljc.js" async></script>';
-});

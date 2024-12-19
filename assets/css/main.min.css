@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Labil Grotesk';
-  src: url('https://assets.website-files.com/5c51b8093dcfd38165099093/6188fdee3d641f99d362084f_LabilGrotesk-Medium.woff2') format('woff2'), url('https://assets.website-files.com/5c51b8093dcfd38165099093/6188fdeeb9d0ec6a77c0c5d9_LabilGrotesk-Medium.woff') format('woff'), url('https://assets.website-files.com/5c51b8093dcfd38165099093/6188fdee2ccdfe52c2631d91_LabilGrotesk-Medium.otf') format('opentype');
+  src: url('/wp-content/themes/heigh10/assets/font/LabilGrotesk-Medium.woff2') format('woff2'), url('/wp-content/themes/heigh10/assets/font/LabilGrotesk-Medium.woff') format('woff'), url('/wp-content/themes/heigh10/assets/font/LabilGrotesk-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Labil Grotesk';
-  src: url('https://assets.website-files.com/5c51b8093dcfd38165099093/6188fdee11b1873a407ae937_LabilGrotesk-Light.woff2') format('woff2'), url('https://assets.website-files.com/5c51b8093dcfd38165099093/6188fdeeb7d7f9304c5d6576_LabilGrotesk-Light.woff') format('woff'), url('https://assets.website-files.com/5c51b8093dcfd38165099093/6188fded2ccdfe278c631d90_LabilGrotesk-Light.otf') format('opentype');
+  src: url('/wp-content/themes/heigh10/assets/font/LabilGrotesk-Light.woff2') format('woff2'), url('/wp-content/themes/heigh10/assets/font/LabilGrotesk-Light.woff') format('woff'), url('/wp-content/themes/heigh10/assets/font/LabilGrotesk-Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
