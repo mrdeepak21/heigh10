@@ -48,8 +48,8 @@ if($query){
                     </section>
 
 
-                    <section class="section work_details no-pb" data-scroll-section>
-                        <div class="q-container container-inner scrollanim_intro">
+                    <section class="section work_details" data-scroll-section>
+                        <div class="q-container container-inner ">
                             <div class="columns menu_fade" >
                                 <div class="column q-1-3">
                                     <div class="work_info">
