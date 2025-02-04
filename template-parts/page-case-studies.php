@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Our Works
+Template Name: Case Studies
 */
 get_header('4');
 

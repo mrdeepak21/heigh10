@@ -1308,7 +1308,7 @@ left: 10%;
 .the-content img.heighlight-icon{
     max-width: 50px; 
     display: inline-block;
-    margin: 0 0 0 -50px!important;
+    margin: 0 10px 0 0!important;
     float: left;
 }
 
