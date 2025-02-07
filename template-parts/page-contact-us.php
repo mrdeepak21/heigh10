@@ -13,7 +13,6 @@ get_header();
 		<div class="d-flex">
 			<div class="c-grid-block cc--contact">
 				<?php the_title( '<p>/ ', '</p>'); ?>
-				</p>
 				<div class="c-hero--statement Contact" data-w-id="6b0044af-cfeb-c4a5-c4cd-13a67fc3d0e3"
 					style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0;">
 					<h1 class="c-hero--txt is--large long-gradient">Get in touch</h1>
