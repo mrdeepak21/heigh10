@@ -17,6 +17,7 @@ get_header();
 					style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);opacity:0;">
 					<h1 class="c-hero--txt is--large long-gradient">Get in touch</h1>
 				</div>
+				<?php echo do_shortcode('[elementor-template id="979"]'); ?>
 			</div>
 			<div class="cc-form">
 				<?php 
