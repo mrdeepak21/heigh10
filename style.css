@@ -1334,3 +1334,7 @@ color: #333;
 .e-form__indicators__indicator.e-form__indicators__indicator--state-active .e-form__indicators__indicator__label{
     color: #000000;
 }
+
+.elementor-button.e-form__buttons__wrapper__button .elementor-button-text{
+    color: #000000;
+}
