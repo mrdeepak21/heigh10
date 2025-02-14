@@ -1322,6 +1322,15 @@ left: 10%;
     margin: 2rem 0 1rem 0;
 }
 
-.e-form__indicators__indicator__label{
+
+.e-form__indicators__indicator.e-form__indicators__indicator--state-inactive .e-form__indicators__indicator__label{
+color: #555;
+}
+
+.e-form__indicators__indicator.e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label{
+color: #333;
+}
+
+.e-form__indicators__indicator.e-form__indicators__indicator--state-active .e-form__indicators__indicator__label{
     color: #000000;
 }
