@@ -702,7 +702,7 @@ footer .col {
 }
 
 .contact-hero {
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     position: relative;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
